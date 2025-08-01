@@ -44,24 +44,24 @@ extra_javascript:
   - template_assets/js/setInfo.js
 plugins:
   - search
-  - macros
+  #- macros
   # - with-pdf:
   #     cover_title: LABXXX-1234
   #     cover_subtitle: My famous WebexOne Lab
   #     cover_logo: template_assets/Wx1_25_PDF_image.jpg
-  - glightbox:
-      touchNavigation: true
-      loop: false
-      effect: fade
-      slide_effect: slide
-      width: 100%
-      height: auto
-      zoomable: true
-      draggable: false
-      skip_classes:
-      - custom-skip-class-name
-      auto_caption: true
-      caption_position: top
+  #- glightbox:
+  #    touchNavigation: true
+  #    loop: false
+  #    effect: fade
+  #    slide_effect: slide
+  #    width: 100%
+  #    height: auto
+  #    zoomable: true
+  #    draggable: false
+  #    skip_classes:
+  #    - custom-skip-class-name
+  #    auto_caption: true
+  #    caption_position: top
 markdown_extensions:
   - md_in_html
   - abbr
@@ -78,7 +78,7 @@ markdown_extensions:
   - pymdownx.highlight
   - pymdownx.tabbed:
       alternate_style: true
-      
+
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -86,18 +86,11 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
 nav:
   - Home: index.md
-  - Lab:
-      - Overview: overview.md
-      - Lab 1 - Getting Started: lab1_getting_started.md
-      - Conclusion: conclusion.md
-  - Topologies: topologies.md
-  - How to use this guide:
-      - Setting up and using the tool:
-        - Initial Setup: howToUse/initialSetup.md
-        - Using the tool after the initial setup: howToUse/postInitial.md
-        - Publishing your changes: howToUse/syncChanges.md
-      - Styling and Advanced Features:
-        - Markdown and Other References: howToUse/references.md
-        - Custom Features: howToUse/customFeatures.md
-        - Custom Admonitions: howToUse/admonition.md
- 
+  - Labs:
+      - Overview: GettingStarted.md
+      - Lab 1 - Proactive Journeys: Lab1.md
+      - Lab 2 - AI Agents: Lab2.md
+      - Lab 3 - Human Agent: Lab3.md
+      - Knowledge Base: kb.md
+      ##- Conclusion: conclusion.md
+  ##- Topologies: topologies.md
