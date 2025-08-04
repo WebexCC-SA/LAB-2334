@@ -44,24 +44,24 @@ extra_javascript:
   - template_assets/js/setInfo.js
 plugins:
   - search
-  #- macros
-  # - with-pdf:
-  #     cover_title: LABXXX-1234
-  #     cover_subtitle: My famous WebexOne Lab
-  #     cover_logo: template_assets/Wx1_25_PDF_image.jpg
-  #- glightbox:
-  #    touchNavigation: true
-  #    loop: false
-  #    effect: fade
-  #    slide_effect: slide
-  #    width: 100%
-  #    height: auto
-  #    zoomable: true
-  #    draggable: false
-  #    skip_classes:
-  #    - custom-skip-class-name
-  #    auto_caption: true
-  #    caption_position: top
+  - macros
+  - with-pdf:
+      cover_title: LAB-2334
+      cover_subtitle: Driving digital to human engagement
+      cover_logo: template_assets/Wx1_25_PDF_image.jpg
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: fade
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: false
+      skip_classes:
+      - custom-skip-class-name
+      auto_caption: true
+      caption_position: top
 markdown_extensions:
   - md_in_html
   - abbr
@@ -73,8 +73,8 @@ markdown_extensions:
   - tables
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.highlight
   - pymdownx.tabbed:
       alternate_style: true

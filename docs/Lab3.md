@@ -1,4 +1,4 @@
-# LAB 3: - HUMAN AGENTS
+# LAB 3: - Human Agents
 
 ## About this lab
 

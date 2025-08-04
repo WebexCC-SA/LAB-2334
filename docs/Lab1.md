@@ -1,4 +1,4 @@
-# LAB 1: - PROACTIVE JOURNEY
+# LAB 1: - Proactive Journeys
 
 ## About this lab
 
