@@ -805,8 +805,8 @@ earlier section.
     ```
 
     - Entity examples: you can add some examples if you prefer which allows
-    the AI Agent to train on the format. Ex:- April 4<sup>th</sup>, April
-    4<sup>th</sup> 2025 etc
+    the AI Agent to train on the format. Ex:- April 4th, April
+    4th, 2025 etc
 
     - Required: Yes
 
