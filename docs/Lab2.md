@@ -125,9 +125,10 @@ Think of this lab as a starting point—there’s a lot more to discover!
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 7. Fill in the **Agent name** and **Agent’s goal**. The **System ID**
-    is auto generated and the only option under **AI engine** (right
-    now) is Webex AI Pro 1.0. *This is where additional engines can be
-    selected as and when they become available*.
+   is auto generated and under **AI engine** there are two options
+     1. Webex AI Pro 1.0 - This engine supports multiple languages including English.
+     2. Webex AI Pro-US 1.0 - This engine supports only English language.
+   **This is where additional engines can be selected as and when they become available**.
 
     Agent name: In the below example, the pod# is 60, so the name is
     prefixed with Pod60. All the pods AI Agents will be accessible and
@@ -208,6 +209,9 @@ manner, referring to the relevant Knowledge sources as appropriate.
 You will also be able to manage any existing orders as follows:  
 Collect an Order ID Number ("orderId") to be able to determine what
 order is being referenced.
+
+**Make a Mental Note**The order ID is in the phone number format.
+Please ignore the special characters in "orderId" and just store the numbers**
 
 These are your available actions, once the "orderId" is known:
 
@@ -350,6 +354,9 @@ We will now add knowledge base articles to train the AI Agent.
     <img src="../assets/L2newImages/media/image21.png"
     style="width:6.04514in;height:2.89091in"
     alt="A screenshot of a computer screen AI-generated content may be incorrect." />
+
+    In the Enter Document content section, click on the "Enter document content" 
+    to paste the information copied in step \#10 and click save on the top right.
 
     <img src="../assets/L2newImages/media/image22.png"
     style="width:6.26806in;height:2.28125in"
@@ -673,8 +680,8 @@ transmission.
 
 2. Click Save/Publish
 
-3. You’ll then see a pop-up where you can assign a **Name** to the
-    Published Version
+3. You’ll then see a pop-up where you will be prompted to enter a comment that represents
+   the changes made to the AI Agent configuration.
 
     <img src="../assets/L2newImages/media/image55.png"
     style="width:5.29167in;height:2.48958in"
@@ -696,6 +703,7 @@ transmission.
     - Try asking for the **order status** in different ways to see how the
     AI Agent responds. This will help you assess how well it understands
     various phrasings and user intents.
+     Ex:- "Is my order shipped?", "When will my order be delivered?".
 
     - If needed, you can adjust the action descriptions to fine-tune the
     agent's behavior. Experimenting with different prompts and tweaks will
@@ -898,8 +906,8 @@ earlier section.
     date collection, this is a great opportunity to fine-tune our prompt for
     a more user-friendly and desirable outcome.
 
-    Go back to the Agent Instructions and add the following to the
-    **\[change_date\]** action:
+    Go back to the Agent Instructions( Go to AI Agent Studio-->AI Agent-->Configuration-->Instructions)
+    and add the following to the **\[change_date\]** action:
 
     ```
     *“The user can provide this date in any way, using natural language, and
@@ -919,9 +927,8 @@ earlier section.
     This adjustment will result in a **more user-friendly response** and
     improved handling of date inputs.
 
-    When **testing the PATCH action**, be sure to **confirm the update** by
-    requesting the **order status again** to verify that the change was
-    successfully applied.
+    To **confirm the update**, do a test again by requesting the **order status**
+    to verify the change in delivery date.
 
 #### Change Safezone Action
 
@@ -1196,8 +1203,8 @@ We will now add cancel_order action.
     style="width:3.34375in;height:3.66667in"
     alt="A screenshot of a chat AI-generated content may be incorrect." />
 
-    **With the default value set to “shipped”, the AI Agent will always
-    inform the user that the order cannot be canceled and will provide
+    **When the delivery status in the CRM is set to “shipped”, the AI Agent will 
+    always inform the user that the order cannot be canceled and will provide
     the appropriate contact number for further assistance.**
 
     This mechanism also serves as a built-in escalation path to a human
@@ -1227,7 +1234,7 @@ Now, let’s head back over to **Webex Connect** to continue!
 
 ## Goal 5: - Integrate the AI Agent into the flow.
 
-At the end of this goal, you will release the importance of AI Agent in
+At the end of this goal, you will realize the importance of AI Agent in
 simplifying the workflows. It allows the brands to move from a
 structured workflow which requires you to capture and program all paths
 of interaction to meet the required customer experience to have an
@@ -1320,8 +1327,8 @@ production.
     alt="A diagram of a network AI-generated content may be incorrect." />
 
 7. The SMS configuration window opens and check the “From Number”, it
-    is blank, and we need to fill this with the SMS number assigned to
-    your pod.
+    is blank, and we will select the dynamic variable "yourAssignedSMSNumber" that
+    stores the SMS number.
 
     <img src="../assets/L2newImages/media/image87.png"
     style="width:6.26806in;height:2.50208in"

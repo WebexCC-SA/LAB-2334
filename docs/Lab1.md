@@ -289,7 +289,7 @@ of the workflow.
 
     - Alternate Date 1: - **Set it to any date after DeliveryETA date**
 
-    - Alternate Date 1: - **Set it to any date after DeliveryETA date that is different than Alternate Date 2**
+    - Alternate Date 2: - **Set it to any date after DeliveryETA date that is different than Alternate Date 1**
 
 7.  After entering the data, click “submit order data” button to create
     the CRM record.
@@ -317,8 +317,9 @@ of the workflow.
 
 10. In the “Get CRM data” screen, enter the phone number that was used
     to create the record in step \#3 and click on “Get Data” button.
-    Observe the result and verify the data that was entered. We will use
-    this data as our CRM record for all parts of our lab.
+    Observe the result (If the operation status pop up window is showing "Retrieving 
+    data",click "close", to close the pop up window) and verify the data that was entered. 
+    We will use this data as our CRM record for all parts of our lab.
 
     <img src="../assets/L1Images/media/image12.png"
     style="width:6.26806in;height:3.93194in"
