@@ -20,7 +20,7 @@ these three pillars:
   proactively address issues before they arise.
 - **Lab 2 - AI Agents** – Automate and resolve common queries
   efficiently, reducing wait times and improving satisfaction.
-- **Lab 3 - Human-AI Collaboration** – Equip human agents, supervisors,
+- **Lab 3 - Human Agents** – Equip human agents, supervisors,
   and analysts with AI-driven insights and assistance, enhancing empathy
   and service quality.
 
