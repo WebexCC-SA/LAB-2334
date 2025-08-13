@@ -33,7 +33,7 @@ experience:
  -   AI Agents – Automate and resolve common queries efficiently, reducing
     wait times and improving satisfaction.
 
- -   Human-AI Collaboration – Equip human agents, supervisors, and analysts
+ -   Human Agents – Equip human agents, supervisors, and analysts
     with AI-driven insights and assistance, enhancing empathy and service
     quality.
 
