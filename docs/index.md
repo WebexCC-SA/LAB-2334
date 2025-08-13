@@ -11,7 +11,7 @@ Our three key CX software workloads work together to reimagine customer experien
 
 *  **Lab 1 - Proactive Journeys** – Anticipate customer needs and proactively address issues before they arise. 
 *  **Lab 2 - AI Agents** – Automate and resolve common queries efficiently, reducing wait times and improving satisfaction.
-*  **Lab 3 - Human Agent** – Equip human agents, supervisors, and analysts with AI-driven insights and assistance, enhancing empathy and service quality.
+*  **Lab 3 - Human Agents** – Equip human agents, supervisors, and analysts with AI-driven insights and assistance, enhancing empathy and service quality.
 
 By embedding AI at every touchpoint, Cisco helps businesses create intelligent, adaptive, and empathetic customer experiences - where every interaction is optimized for both efficiency and personalization.
 
