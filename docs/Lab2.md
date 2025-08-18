@@ -598,10 +598,6 @@ transmission.
 
 1.  Set the Entity Name to “orderId”
 
-    <img src="../assets/L2newImages/media/image48.png"
-    style="width:4.61997in;height:3.20909in"
-    alt="A screenshot of a computer AI-generated content may be incorrect." />
-
 
 2. For orderId, since we are not setting any constraints, set the
     Entity Type to String.
@@ -622,6 +618,12 @@ transmission.
 
 4. Click **Add** once you’re done and you’ll see the Entity appear in
     the list as follows:
+
+
+    <img src="../assets/L2newImages/media/image48.png"
+    style="width:4.61997in;height:3.20909in"
+    alt="A screenshot of a computer AI-generated content may be incorrect." />
+
 
     <img src="../assets/L2newImages/media/image49.png"
     style="width:6.26806in;height:1.07292in"
