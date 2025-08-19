@@ -6,7 +6,7 @@ Welcome to the Webex Customer Contact Center Bootcamp!
 
 <figure>
 <img
-src="../assets/GettingStarted/media/fc64a05a69cdc429805555a69b15aeab9226a2de.png"
+src="../assets/GettingStarted/media/3Pillar.png"
 alt="A screenshot of a customer experience portfolio AI-generated content may be incorrect." />
 </figure>
 
