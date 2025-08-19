@@ -1,6 +1,6 @@
 <div style="font-size: 24px; font-weight: bold;">Welcome to the webexone 2025</div>
 
-<img src="../assets/webexone.png" />
+<img src="assets/Index/webexone.png" />
 
 ## Welcome to **webexone!**
 
