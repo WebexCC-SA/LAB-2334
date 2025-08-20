@@ -112,7 +112,7 @@ with the store’s source system that is referred to as CRM in this lab
 guide.
 
 <img src="../assets/L1Images/media/image1.png"
-style="width:5.17361in;height:3.53043in"
+style="width:100%; max-width:800px; height:auto;"
 alt="A white device with a round button AI-generated content may be incorrect." />
 
 The lab will follow these steps in chronological order: -
@@ -202,13 +202,11 @@ of the workflow.
     completes the purchase of the Core Trio Qi charger.
 
     <img src="../assets/L1Images/media/image2.png"
-    style="width:6.26806in;height:1.91736in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A diagram of a server AI-generated content may be incorrect." />
 
     -   The business is going to send a transactional notification indicating
         their purchase is confirmed and being processed for shipment.
-
-        <!-- -->
 
     -   As soon as the customer completes the purchase, the CRM is updated
         with the customer information, and it triggers a notification request
@@ -218,7 +216,7 @@ of the workflow.
     is shipped.
 
     <img src="../assets/L1Images/media/image3.png"
-    style="width:6.26806in;height:2.09792in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A diagram of a diagram AI-generated content may be incorrect." />
 
     -   The notification is triggered when the order is shipped with the
@@ -240,7 +238,7 @@ of the workflow.
     \#2
 
     <img src="../assets/L1Images/media/image4.png"
-    style="width:6.26806in;height:3.23542in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a login screen AI-generated content may be incorrect." />
 
 4.  The first step is to create the customer record in the CRM. For this
@@ -249,20 +247,20 @@ of the workflow.
     <http://crm.cxocoe.us>. The webpage displayed is as shown below.
 
     <img src="../assets/L1Images/media/image5.png"
-    style="width:6.26806in;height:2.90972in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 5.  Click on “Post CRM Data” at the top navigation bar or click on “Go”
     button displayed within Post CRM Data contact card.
 
     <img src="../assets/L1Images/media/image6.png"
-    style="width:6.26806in;height:2.90278in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 6.  Add the data to the following fields: -
 
     <img src="../assets/L1Images/media/image7.png"
-    style="width:6.26806in;height:4.13403in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     - First Name: - **Enter your First name or a fake first name** 
@@ -295,24 +293,24 @@ of the workflow.
     the CRM record.
 
     <img src="../assets/L1Images/media/image8.png"
-    style="width:6.26806in;height:3.00278in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     <img src="../assets/L1Images/media/image9.png"
-    style="width:6.26806in;height:2.17708in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 8.  If the data entry is successful, http response will show the status
     code “200 ok” as shown below.
 
     <img src="../assets/L1Images/media/image10.png"
-    style="width:6.26806in;height:2.75139in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 9. To view the data, click on “Get CRM Data” in the top menu
 
     <img src="../assets/L1Images/media/image11.png"
-    style="width:6.26806in;height:1.46736in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screen shot of a computer AI-generated content may be incorrect." />
 
 10. In the “Get CRM data” screen, enter the phone number that was used
@@ -322,14 +320,14 @@ of the workflow.
     We will use this data as our CRM record for all parts of our lab.
 
     <img src="../assets/L1Images/media/image12.png"
-    style="width:6.26806in;height:3.93194in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 11. In case you need to make any changes to the CRM data or record,
     click on “Update CRM Data” in the top menu.
 
     <img src="../assets/L1Images/media/image13.png"
-    style="width:6.26806in;height:1.15208in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screen shot of a computer AI-generated content may be incorrect." />
 
 12. To update any field, enter the phone number for the order Id. Click
@@ -340,11 +338,11 @@ of the workflow.
     multiple fields, you can update one field at a time.
 
     <img src="../assets/L1Images/media/image14.png"
-    style="width:5.90435in;height:3.7125in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a update record AI-generated content may be incorrect." />
 
     <img src="../assets/L1Images/media/image15.png"
-    style="width:5.9038in;height:5.08696in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 13. Now try step \#10 – Get CRM data and validate the changes are
@@ -376,7 +374,7 @@ Let us get started!
         added to few groups and can be ignored.
 
     <img src="../assets/L1Images/media/image16.png"
-    style="width:6.26806in;height:2.98403in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
      
 
@@ -388,39 +386,39 @@ Let us get started!
         added to few groups and can be ignored. 
 
     <img src="../assets/L1Images/media/image17.png"
-    style="width:6.26806in;height:2.98403in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 4. Click on “Search Services” and type in Pod \<your pod number\> and
     press “Enter”. In my example below, my Pod \# is 60
 
     <img src="../assets/L1Images/media/image18.png"
-    style="width:6.26806in;height:2.94931in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 5. Click on Pod 60 and you will see the “Dashboard” as shown below.
 
     <img src="../assets/L1Images/media/image19.png"
-    style="width:6.26806in;height:2.93125in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 6. Click on “Flows”.
 
     <img src="../assets/L1Images/media/image20.png"
-    style="width:6.26806in;height:2.93125in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 7. There should be a starter flow called “Lab1 Starter Flow”. We will
     create a flow by copying the starter flow. Click on “Create Flow”.
 
     <img src="../assets/L1Images/media/image21.png"
-    style="width:6.26806in;height:1.87014in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 8. The next screen presented is to “Create Flow”.
 
     <img src="../assets/L1Images/media/image22.png"
-    style="width:6.26806in;height:4.12569in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 9. Add the following details: -
@@ -438,7 +436,7 @@ Let us get started!
     - Click “Create”.
 
     <img src="../assets/L1Images/media/image23.png"
-    style="width:6.26806in;height:2.94167in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
   
@@ -448,7 +446,7 @@ Let us get started!
     “Configure Webhook”.
 
     <img src="../assets/L1Images/media/image24.png"
-    style="width:6.26806in;height:4.07569in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 11. Under “Configure webhook settings to trigger this flow”, select
@@ -469,14 +467,14 @@ Let us get started!
     ```
 
     <img src="../assets/L1Images/media/image25.png"
-    style="width:6.26806in;height:4.03889in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 12. Click on Parse button. This will create “orderId” as a variable that
     can be used throughout the flow.
 
     <img src="../assets/L1Images/media/image26.png"
-    style="width:6.26806in;height:4.05208in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     > After the “Parse” button is clicked, observe the variable created
@@ -486,11 +484,11 @@ Let us get started!
     > clicking on “Output Variables”.
 
     <img src="../assets/L1Images/media/image27.png"
-    style="width:6.26806in;height:4.03542in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     <img src="../assets/L1Images/media/image28.png"
-    style="width:6.26806in;height:4.04375in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 13. We will rename the “Configure Webhook” to “Trigger Proactive
@@ -498,11 +496,11 @@ Let us get started!
     name and click the check mark to save the edits.
 
     <img src="../assets/L1Images/media/image29.png"
-    style="width:6.26806in;height:4.03542in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     <img src="../assets/L1Images/media/image30.png"
-    style="width:6.26806in;height:4.05in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 14. Click “Save” to save the node configuration.
@@ -514,11 +512,11 @@ Let us get started!
     in a production environment for optimal experience.
 
     <img src="../assets/L1Images/media/image31.png"
-    style="width:6.26806in;height:3.01667in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     <img src="../assets/L1Images/media/image32.png"
-    style="width:6.26806in;height:3.00417in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 ## Goal 3 – Configuring the flow
@@ -528,7 +526,7 @@ tools/functions (if you find yourself struggling, try our documentation
 page too @ help.webexconnect.io):
 
 <img src="../assets/L1Images/media/image33.png"
-style="width:6.26806in;height:2.96319in"
+style="width:100%; max-width:800px; height:auto;"
 alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 1.  The first step is to identify the “SMS” nodes and modify them. The
@@ -546,14 +544,14 @@ alt="A screenshot of a computer AI-generated content may be incorrect." />
     assign this variable to the SMS nodes.
 
     <img src="../assets/L1Images/media/image35.png"
-    style="width:6.26806in;height:2.84722in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 3. Open SMS node \#1 as shown in step \#2 by double clicking on the SMS
     node to open the configuration settings of this node.
 
     <img src="../assets/L1Images/media/image36.png"
-    style="width:6.26806in;height:4.04028in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 4. Observe the image from the above step and note that “From Number” is
@@ -567,11 +565,11 @@ alt="A screenshot of a computer AI-generated content may be incorrect." />
     field. Click save to save the node config.
 
     <img src="../assets/L1Images/media/image37.png"
-    style="width:6.26806in;height:4.05in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     <img src="../assets/L1Images/media/image38.png"
-    style="width:6.26806in;height:4.04028in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 5. Repeat the above steps for all the other 9 SMS nodes.
@@ -582,7 +580,7 @@ alt="A screenshot of a computer AI-generated content may be incorrect." />
     “Template” concept.
 
     <img src="../assets/L1Images/media/image39.png"
-    style="width:6.26806in;height:2.62639in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A diagram of a network AI-generated content may be incorrect." />
 
 8. In this node configuration, observe that we are not configuring the
@@ -590,7 +588,7 @@ alt="A screenshot of a computer AI-generated content may be incorrect." />
     utilizing messaging templates.
 
     <img src="../assets/L1Images/media/image40.png"
-    style="width:6.26806in;height:4.06458in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     Typically, you can proceed in one of two ways – you can simply
@@ -610,25 +608,25 @@ alt="A screenshot of a computer AI-generated content may be incorrect." />
     page:
 
     <img src="../assets/L1Images/media/image41.png"
-    style="width:6.26806in;height:3.01181in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     Then click on the wrench in the menu panel to the left and select
     ‘Templates’.
 
     <img src="../assets/L1Images/media/image42.png"
-    style="width:6.26806in;height:2.54097in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screen shot of a computer AI-generated content may be incorrect." />
 
     Click on any pre-configured template to view the template
     configuration.
 
     <img src="../assets/L1Images/media/image43.png"
-    style="width:6.26806in;height:2.6375in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     <img src="../assets/L1Images/media/image44.png"
-    style="width:6.26806in;height:3.97708in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a chat box AI-generated content may be incorrect." />
 
 10. Now that we have seen the templates and the purpose of templates,
@@ -636,17 +634,17 @@ alt="A screenshot of a computer AI-generated content may be incorrect." />
     on the left.
 
     <img src="../assets/L1Images/media/image45.png"
-    style="width:6.26806in;height:2.6375in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     Search the Pod and click on the Pod \# that is assigned to you.
 
     <img src="../assets/L1Images/media/image18.png"
-    style="width:6.26806in;height:2.94931in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     <img src="../assets/L1Images/media/image20.png"
-    style="width:6.26806in;height:2.93125in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     There will be two flows in your service, click on the flow “Pod#
@@ -664,14 +662,14 @@ alt="A screenshot of a computer AI-generated content may be incorrect." />
 12. There are 5 receive nodes in the flow as identified below.
 
     <img src="../assets/L1Images/media/image47.png"
-    style="width:6.26806in;height:2.30833in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A diagram of a network AI-generated content may be incorrect." />
 
 13. Open “Receive” node \#1 identified in step \#12 by double clicking
     on the node to verify the configuration and click save.
 
     <img src="../assets/L1Images/media/image48.png"
-    style="width:6.26806in;height:4.04444in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 14. Open all other “Receive” nodes to make sure the variable is set for
@@ -681,20 +679,20 @@ alt="A screenshot of a computer AI-generated content may be incorrect." />
     shown below
 
     <img src="../assets/L1Images/media/image49.png"
-    style="width:6.26806in;height:4.04236in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     Click on the Number field and select “—Dynamic--” as shown below.
 
     <img src="../assets/L1Images/media/image50.png"
-    style="width:6.26806in;height:4.04792in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     Now expand the “Custom variables” located on the right hand side of
     the node and select “yourAssignedSMSNumber” as shown below.
 
     <img src="../assets/L1Images/media/image51.png"
-    style="width:6.26806in;height:4.03056in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     Now click on Keyword and select “\*”. The “\*“ keyword allows to
@@ -705,14 +703,14 @@ alt="A screenshot of a computer AI-generated content may be incorrect." />
     however there will be warnings that we will ignore for this lab.
 
     <img src="../assets/L1Images/media/image52.png"
-    style="width:6.26806in;height:2.99861in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A computer screen shot of a diagram AI-generated content may be incorrect." />
 
 17. We are all set to put the flow into production. Click on “Make
     Live”.
 
     <img src="../assets/L1Images/media/image53.png"
-    style="width:6.26806in;height:2.99722in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 18. Make live configuration is presented, where we will assign the
@@ -722,7 +720,7 @@ alt="A screenshot of a computer AI-generated content may be incorrect." />
     assigned SMS number to Pod60 is 14087862126.
 
     <img src="../assets/L1Images/media/image54.png"
-    style="width:6.26806in;height:4.05in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     Click on “Numbers” field and select the number that was assigned to
@@ -731,18 +729,18 @@ alt="A screenshot of a computer AI-generated content may be incorrect." />
     Note: - Please check the box against your assigned number only.
 
     <img src="../assets/L1Images/media/image55.png"
-    style="width:6.26806in;height:4.04861in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     <img src="../assets/L1Images/media/image56.png"
-    style="width:6.26806in;height:4.05625in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     Type your number in the format 1+\<phonenumber\> as shown in the
     image below
 
     <img src="../assets/L1Images/media/image57.png"
-    style="width:6.26806in;height:4.04375in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 19. Click “Make Live” to put the flow in production. Please note, the
@@ -751,7 +749,7 @@ alt="A screenshot of a computer AI-generated content may be incorrect." />
     indicate it is live and in production.
 
     <img src="../assets/L1Images/media/image58.png"
-    style="width:6.26806in;height:1.40208in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screen shot of a computer AI-generated content may be incorrect." />
 
 ## Goal 4 – Testing the Proactive Journey
@@ -766,7 +764,7 @@ ready, let us begin testing.
     first node “Trigger Proactive Journey”.
 
     <img src="../assets/L1Images/media/image59.png"
-    style="width:6.26806in;height:2.90417in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     In the configuration window, locate the field named “Webhook URL”
@@ -775,21 +773,21 @@ ready, let us begin testing.
     part of the URL “XXXXXXXXXX” to test.
 
     <img src="../assets/L1Images/media/image60.png"
-    style="width:6.26806in;height:4.03403in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 2.  Open a web browser and login to <http://crm.cxocoe.us> with the
     credentials provided.
 
     <img src="../assets/L1Images/media/image61.png"
-    style="width:6.26806in;height:3.41111in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 
 3. Click on “Kick off Proactive Flow”.
 
     <img src="../assets/L1Images/media/image62.png"
-    style="width:6.26806in;height:5.13819in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a webpage AI-generated content may be incorrect." />
 
     - Phone Number: *Enter your mobile number with country code. Ex: -
@@ -800,7 +798,7 @@ ready, let us begin testing.
     Then click on “Start Flow” to trigger the proactive journey.
 
     <img src="../assets/L1Images/media/image63.png"
-    style="width:6.26536in;height:4.00909in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 4. The flows provide debug capability to identify any issues with the
@@ -808,21 +806,21 @@ ready, let us begin testing.
     that is located on the right of the flow.
 
     <img src="../assets/L1Images/media/image64.png"
-    style="width:6.26806in;height:2.76111in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     The debug window contains list of transaction id’s that the flow has
     executed. Click on the appropriate transaction id to debug.
 
     <img src="../assets/L1Images/media/image65.png"
-    style="width:6.26806in;height:2.33889in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     The debug output is encrypted by default. Click “Decrypt Logs” to
     view the logs in plain text.
 
     <img src="../assets/L1Images/media/image66.png"
-    style="width:6.26806in;height:2.99375in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 5. You should have received a proactive notification on your mobile
@@ -838,26 +836,26 @@ ready, let us begin testing.
 7. Click on “Update CRM Data”
 
     <img src="../assets/L1Images/media/image68.png"
-    style="width:6.26806in;height:3.82569in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     The field to update is Delivery Status and the value is “shipped”.
     Then click “Update Record”.
 
     <img src="../assets/L1Images/media/image69.png"
-    style="width:6.26806in;height:4.23333in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 8. Now let us test again by repeating Step \#3
 
     <img src="../assets/L1Images/media/image62.png"
-    style="width:6.26806in;height:5.13819in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a webpage AI-generated content may be incorrect." />
 
 9. Verify the messages that you received on your mobile phone
 
     <img src="../assets/L1Images/media/image70.png"
-    style="width:6.26806in;height:2.81111in"
+    style="width:75%; max-width:800px; height:auto;"
     alt="A phone with a message AI-generated content may be incorrect." />
 
 10. The test can be repeated for changing the date if desired.
@@ -904,7 +902,7 @@ ready, let us begin testing.
   you’re done:
 
     <img src="../assets/L1Images/media/image71.png"
-    style="width:6.26806in;height:2.27569in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A diagram of a computer process AI-generated content may be incorrect." />
 
 Let us build this simple flow:
@@ -912,13 +910,13 @@ Let us build this simple flow:
 1.  From the dashboard of your service, click on “Create Flow”.
 
     <img src="../assets/L1Images/media/image72.png"
-    style="width:6.26806in;height:2.22222in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a chat AI-generated content may be incorrect." />
 
 2. In the “Create Flow” shown below, add the details.
 
     <img src="../assets/L1Images/media/image73.png"
-    style="width:6.26806in;height:4.62292in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     - Flow Name: *Pod# Reactive Status Catch All*
@@ -928,13 +926,13 @@ Let us build this simple flow:
     - Click “Create”.
 
       <img src="../assets/L1Images/media/image74.png"
-      style="width:6.26806in;height:4.65694in"
+      style="width:100%; max-width:800px; height:auto;"
       alt="A screenshot of a chat AI-generated content may be incorrect." />
 
 3. In “Select Trigger Category”, select “SMS” as the channel.
 
     <img src="../assets/L1Images/media/image75.png"
-    style="width:6.26806in;height:5.375in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 4. Once you’ve selected SMS, the “Configure SMS Event” window appears.
@@ -943,7 +941,7 @@ Let us build this simple flow:
     message).
 
     <img src="../assets/L1Images/media/image76.png"
-    style="width:6.26806in;height:4.06319in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 5. Select your assigned SMS number from the “INCOMING NUMBER”.
@@ -982,7 +980,7 @@ Let us build this simple flow:
     - Click “Save”.
 
     <img src="../assets/L1Images/media/image77.png"
-    style="width:6.26806in;height:4.05625in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 6. When we receive an inbound message from the customer asking for
@@ -992,30 +990,30 @@ Let us build this simple flow:
     This can also be searched for using the search button.
 
     <img src="../assets/L1Images/media/image78.png"
-    style="width:6.26806in;height:4.75903in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 7. Drag the “Custom CRM” node to the flow canvas next to the SMS node.
 
     <img src="../assets/L1Images/media/image79.png"
-    style="width:6.26806in;height:3.67273in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 8. To wire the two nodes, click on the “green” dot of the SMS node and
     drag it until it snaps on to the “Custom CRM” node.
 
     <img src="../assets/L1Images/media/image80.png"
-    style="width:6.26806in;height:3.52569in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     <img src="../assets/L1Images/media/image81.png"
-    style="width:6.26806in;height:3.70347in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 9. Now double click on the “Custom CRM” node to add details.
 
     <img src="../assets/L1Images/media/image82.png"
-    style="width:6.26806in;height:4.03889in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 10. Click on “Select Method Name” and select “Fetch CRM Data”. This should
@@ -1024,13 +1022,13 @@ Let us build this simple flow:
     of the panel as shown below.
 
     <img src="../assets/L1Images/media/image83.png"
-    style="width:6.26806in;height:4.04653in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screen shot of a computer AI-generated content may be incorrect." />
 
     Click on “sms.senderNumber” variable found in the list.
 
     <img src="../assets/L1Images/media/image84.png"
-    style="width:6.26806in;height:4.03681in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     Click “Save” to save the configuration.
@@ -1044,25 +1042,25 @@ Let us build this simple flow:
     green dot and snapping it to the SMS node.
 
     <img src="../assets/L1Images/media/image85.png"
-    style="width:6.26806in;height:2.94444in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     <img src="../assets/L1Images/media/image86.png"
-    style="width:6.26806in;height:3.99861in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     <img src="../assets/L1Images/media/image87.png"
-    style="width:6.26806in;height:3.67222in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A diagram of a diagram of a customer service AI-generated content may be incorrect." />
 
 12. Click on the SMS node to configure.
 
     <img src="../assets/L1Images/media/image88.png"
-    style="width:6.26806in;height:4.04792in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     <img src="../assets/L1Images/media/image89.png"
-    style="width:6.26806in;height:4.06458in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     Observe the Message body and this is the power of templates, which
@@ -1073,11 +1071,11 @@ Let us build this simple flow:
     below.
 
     <img src="../assets/L1Images/media/image90.png"
-    style="width:6.26806in;height:4.03194in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     <img src="../assets/L1Images/media/image91.png"
-    style="width:6.26806in;height:4.04514in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     Click “Save” to save the node configuration.
@@ -1090,7 +1088,7 @@ Let us build this simple flow:
     the previous SMS node to snap on to the JDS node.
 
     <img src="../assets/L1Images/media/image92.png"
-    style="width:6.26806in;height:2.65625in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screen shot of a computer AI-generated content may be incorrect." />
 
 14. Double click the JDS node to configure it. Click on Method Name and select
@@ -1133,15 +1131,15 @@ Let us build this simple flow:
       **deliveryStatus**.
 
       <img src="../assets/L1Images/media/image93.png"
-      style="width:6.26806in;height:4.05139in"
+      style="width:100%; max-width:800px; height:auto;"
       alt="A screenshot of a computer AI-generated content may be incorrect." />
 
       <img src="../assets/L1Images/media/image94.png"
-      style="width:6.26806in;height:3.14167in"
+      style="width:100%; max-width:800px; height:auto;"
       alt="A screenshot of a computer AI-generated content may be incorrect." />
 
       <img src="../assets/L1Images/media/image95.png"
-      style="width:6.26806in;height:4.03542in"
+      style="width:100%; max-width:800px; height:auto;"
       alt="A screenshot of a computer AI-generated content may be incorrect." />
 
       Click “Save” to save the node configuration.
@@ -1150,14 +1148,14 @@ Let us build this simple flow:
     open the “End” configuration.
 
     <img src="../assets/L1Images/media/image96.png"
-    style="width:6.26806in;height:3.52569in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     Click the drop down on “Node Event” and select “success” and select
     “101 – Successfully completed flow \[Success\] under “Flow Result”.
 
     <img src="../assets/L1Images/media/image97.png"
-    style="width:6.26806in;height:4.04236in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 16. Click “Save” and Click “Make live” to put the flow into production.
@@ -1167,7 +1165,7 @@ Let us build this simple flow:
     example.
 
     <img src="../assets/L1Images/media/image98.png"
-    style="width:2.11818in;height:4.19011in"
+    style="width:50%; max-width:500px; height:auto;"
     alt="A screenshot of a phone AI-generated content may be incorrect." />
 
 18. The last message suggests the customer to send a text “STATUS” to
@@ -1177,7 +1175,7 @@ Let us build this simple flow:
     message.
 
     <img src="../assets/L1Images/media/image99.png"
-    style="width:6.26806in;height:4.91181in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a phone AI-generated content may be incorrect." />
 
     Congratulations! You have successfully completed Lab 1.

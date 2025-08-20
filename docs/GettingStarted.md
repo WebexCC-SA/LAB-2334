@@ -13,7 +13,7 @@ alt="A screenshot of a customer experience portfolio AI-generated content may be
 ## Webex Customer Contact Center Bootcamp
 
 Our three key CX software workloads work together to reimagine customer
-experience. In this bootcamp we will completing three labs that cover
+experience. In this bootcamp you will be completing three labs that cover
 these three pillars:
 
 - **Lab 1 - Proactive Journeys** – Anticipate customer needs and
