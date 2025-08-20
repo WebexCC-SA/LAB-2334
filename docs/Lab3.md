@@ -77,46 +77,54 @@ in a quick and a very efficient way.
 AI Assistant revolutionizes customer service by enhancing your
 efficiency and elevating customer satisfaction.
 
-Here is what the AI Assistant offers:
+The AI Assistant currently provides the following features:
 
-- **AI-generated call summaries** – Agents can now handle customer
+1. **AI-generated call summaries** – Agents can now handle customer
   conversations better with AI-generated summaries.
 
-- AI-generated summaries for dropped calls: If a call gets disconnected
-  unexpectedly, the Cisco AI Assistant instantly creates a summary of
-  the conversation. When the customer calls back, the next agent can
-  seamlessly continue the conversation, saving time and enhancing the
-  customer experience.
+    - **AI-generated summaries for dropped calls**: If a call gets disconnected
+        unexpectedly, the Cisco AI Assistant instantly creates a summary of
+        the conversation. When the customer calls back, the next agent can
+        seamlessly continue the conversation, saving time and enhancing the
+        customer experience.
 
-- Virtual agent transfer summaries: Provides the comprehensive summaries
-  of interactions with virtual agents, ensuring the agents have all the
-  information needed to assist customers quickly and efficiently. This
-  means less repetition for customers and faster resolutions.
+    - **Virtual agent transfer summaries**: Provides the comprehensive summaries
+        of interactions with virtual agents, ensuring the agents have all the
+        information needed to assist customers quickly and efficiently. This
+        means less repetition for customers and faster resolutions.
 
-- **AI-powered Agent Wellbeing** - AI-powered Agent Wellbeing features
-  are designed to support Agents’ wellbeing, enhance productivity, and
-  customer satisfaction. Using advanced analytics, the Webex Contact
-  Center platform harnesses end-to-end data insights to monitor and
-  detect agents' stress levels in real-time. Using the real-time
-  insights, the system provides automated wellbeing breaks when needed,
-  helping agents manage stress effectively, sustain high performance,
-  and deliver exceptional customer experiences.
+2. **AI-powered Agent Wellbeing** - AI-powered Agent Wellbeing features
+    are designed to support Agents’ wellbeing, enhance productivity, and
+    customer satisfaction. Using advanced analytics, the Webex Contact
+    Center platform harnesses end-to-end data insights to monitor and
+    detect agents' stress levels in real-time. Using the real-time
+    insights, the system provides automated wellbeing breaks when needed,
+    helping agents manage stress effectively, sustain high performance,
+    and deliver exceptional customer experiences.
 
-- **Auto CSAT** - Auto CSAT forecasts customer satisfaction (CSAT) after
-  each interaction, helping contact centers gain insights and make
-  decisions to boost customer satisfaction and agent performance. CSAT
-  is crucial for understanding customer happiness with service. Cisco's
-  proprietary models use operational data, interaction transcripts, and
-  surveys to predict CSAT scores accurately. These scores can identify
-  training needs, select calls for review, and ensure swift resolution
-  for dissatisfied customers.
+3. **Auto CSAT** - Auto CSAT forecasts customer satisfaction (CSAT) after
+    each interaction, helping contact centers gain insights and make
+    decisions to boost customer satisfaction and agent performance. CSAT
+    is crucial for understanding customer happiness with service. Cisco's
+    proprietary models use operational data, interaction transcripts, and
+    surveys to predict CSAT scores accurately. These scores can identify
+    training needs, select calls for review, and ensure swift resolution
+    for dissatisfied customers.
 
-- **Topic Analytics** – AI-powered Topic Analysis capability provides
-  insights into the key reasons customers are calling into the contact
-  center by collecting and analyzing interaction data and extracting
-  trends. This capability, using large language models (LLMs), helps the
-  organization to identify the top call drivers and probably use that as
-  a first step towards self-service leveraging AI Agents.
+4. **Topic Analytics** – AI-powered Topic Analysis capability provides
+    insights into the key reasons customers are calling into the contact
+    center by collecting and analyzing interaction data and extracting
+    trends. This capability, using large language models (LLMs), helps the
+    organization to identify the top call drivers and probably use that as
+    a first step towards self-service leveraging AI Agents.
+
+5. **Real-time transcripts for Agents** - The real-time transcription feature 
+    provides agents with a live, continuously updated transcript of customer 
+    conversations directly within the Agent Desktop. This ensures that every 
+    spoken word is accurately captured in real time, reducing the risk of 
+    missed details and misunderstandings. Agents can follow along effortlessly 
+    without the need for manual note-taking, allowing them to stay fully engaged 
+    in the conversation.
 
   As part of this lab, we will only be testing the AI-generated call
   summaries because the other AI features rely on data to train and
@@ -137,7 +145,7 @@ Here is what the AI Assistant offers:
     shown below.
 
     <img src="../assets/L3Images/media/image1.png"
-    style="width:6.26806in;height:3.08472in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     Please ignore the error message at the bottom right. This is only
@@ -146,14 +154,14 @@ Here is what the AI Assistant offers:
 2.  Next click on “Contact Center” and click on “Channels”.
 
     <img src="../assets/L3Images/media/image2.png"
-    style="width:6.26806in;height:2.48819in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 3.  Using the search type in your Pod#, ex: - If you are assigned Pod
     60, type pod60 or alternatively you can find it in the list.
 
     <img src="../assets/L3Images/media/image3.png"
-    style="width:6.26806in;height:3.68403in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 4.  <span id="_Ref194847514" class="anchor"></span>Click on the
@@ -163,7 +171,7 @@ Here is what the AI Assistant offers:
     received along with your pod credentials is same as this number.
 
     <img src="../assets/L3Images/media/image4.png"
-    style="width:6.26806in;height:3.25833in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 
@@ -172,27 +180,27 @@ Here is what the AI Assistant offers:
     in your Pod# and the team displayed with the filter.
 
     <img src="../assets/L3Images/media/image5.png"
-    style="width:6.26806in;height:3.32778in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
-    Click on your team to verify the configuration.
+    Click on your team and validate the agent, supervisor and admin accounts
+    that are assigned to the team belong to your Pod# .
 
     <img src="../assets/L3Images/media/image6.png"
-    style="width:6.26806in;height:3.97222in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 6.  Next, we will verify the queue configuration. Click on Queue and in
     the search bar type in your pod# to display your queue.
 
     <img src="../assets/L3Images/media/image7.png"
-    style="width:6.26806in;height:3.06042in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
-    Click on the queue to open the configuration and verify the team
-    assignment in the queue.
+    Click on the queue to open the configuration.
 
     <img src="../assets/L3Images/media/image8.png"
-    style="width:6.26806in;height:3.57083in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 7.  In the “Contact Routing Settings” section, click the Pencil icon
@@ -201,11 +209,11 @@ Here is what the AI Assistant offers:
     queue.
 
     <img src="../assets/L3Images/media/image9.png"
-    style="width:5.25455in;height:2.44861in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     <img src="../assets/L3Images/media/image10.png"
-    style="width:4.50909in;height:3.93611in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a group AI-generated content may be incorrect." />
 
 8.  Next, let us look at AI Assistant to observe the features that are
@@ -215,11 +223,11 @@ Here is what the AI Assistant offers:
     certain group of individuals.
 
     <img src="../assets/L3Images/media/image11.png"
-    style="width:6.26806in;height:3.74514in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     <img src="../assets/L3Images/media/image12.png"
-    style="width:6.26806in;height:4.75486in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 9.  Auto CSAT feature modeling is dependent on call recording and CSAT
@@ -230,7 +238,7 @@ Here is what the AI Assistant offers:
     Assistant.
 
     <img src="../assets/L3Images/media/image13.png"
-    style="width:6.26806in;height:2.42083in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 ## Goal 1 – WxCC Flow Configuration.
@@ -246,7 +254,7 @@ that we created in Lab 2.
     CiscoLive_WxCC_Flow.
 
     <img src="../assets/L3Images/media/image14.png"
-    style="width:6.26806in;height:2.04097in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screen shot of a computer AI-generated content may be incorrect." />
 
 2.  We will now make a Copy of this flow and modify it. To copy click on
@@ -256,18 +264,18 @@ that we created in Lab 2.
     at the end of the CiscoLive_WxCC_Flow.
 
     <img src="../assets/L3Images/media/image16.png"
-    style="width:6.17803in;height:1.47222in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screen shot of a computer AI-generated content may be incorrect." />
 
     <img src="../assets/L3Images/media/image17.png"
-    style="width:6.26806in;height:2.09236in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 3.  Click copy to make a copy of the flow. Wait for few secs for the
     copy of the flow to show up in the list.
 
     <img src="../assets/L3Images/media/image18.png"
-    style="width:6.26806in;height:1.91667in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 4.  Click on <img src="../assets/L3Images/media/image19.png"
@@ -278,11 +286,11 @@ that we created in Lab 2.
     edited by” your admin account name.
 
     <img src="../assets/L3Images/media/image18.png"
-    style="width:6.26806in;height:1.91667in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     <img src="../assets/L3Images/media/image20.png"
-    style="width:6.26806in;height:2.14375in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 5.  When the flow opens, you may be presented with “Discover New
@@ -292,11 +300,11 @@ that we created in Lab 2.
     do so click the “Edit” toggle which can found next to the flow name.
 
     <img src="../assets/L3Images/media/image21.png"
-    style="width:6.26806in;height:2.2125in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     <img src="../assets/L3Images/media/image22.png"
-    style="width:6.26806in;height:2.56875in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 7.  Click the <img src="../assets/L3Images/media/image23.png"
@@ -307,15 +315,15 @@ that we created in Lab 2.
     you 60, the flow name is Pod60_Flow.
 
     <img src="../assets/L3Images/media/image24.png"
-    style="width:6.26806in;height:2.2625in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     <img src="../assets/L3Images/media/image25.png"
-    style="width:6.26806in;height:2.01528in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     <img src="../assets/L3Images/media/image26.png"
-    style="width:6.26806in;height:1.53958in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     Click Save.
@@ -324,7 +332,7 @@ that we created in Lab 2.
     that we built in lab 2. Click on the node that is labeled aiAgent.
 
     <img src="../assets/L3Images/media/image27.png"
-    style="width:6.26806in;height:2.41944in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer screen AI-generated content may be incorrect." />
 
 9.  The configuration settings for the node will be displayed on the
@@ -336,7 +344,7 @@ that we created in Lab 2.
     next to the search flow and the settings window will appear.
 
     <img src="../assets/L3Images/media/image29.png"
-    style="width:6.26806in;height:3.59375in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 10. In the aiAgent settings, change the Virtual Agent to the virtual
@@ -344,14 +352,14 @@ that we created in Lab 2.
     down, so please select your virtual agent from the drop down.
 
     <img src="../assets/L3Images/media/image30.png"
-    style="width:6.26806in;height:2.75625in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 11. We now need to modify the Queue node to change the Queue target to
     your Pod. Click on QueueCall node in the flow.
 
     <img src="../assets/L3Images/media/image31.png"
-    style="width:6.26806in;height:2.24583in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 12. The configuration settings for the node will be displayed on the
@@ -363,22 +371,22 @@ that we created in Lab 2.
     next to the search flow and the settings window will appear.
 
     <img src="../assets/L3Images/media/image29.png"
-    style="width:6.26806in;height:3.59375in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 13. In the QueueCall settings, in the Contact Handling section, change
     the Queue to your pod queue by clicking on the drop down.
 
     <img src="../assets/L3Images/media/image32.png"
-    style="width:6.26806in;height:2.3375in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     <img src="../assets/L3Images/media/image33.png"
-    style="width:3.38182in;height:6.59028in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a web page AI-generated content may be incorrect." />
 
     <img src="../assets/L3Images/media/image34.png"
-    style="width:4.8in;height:7.79028in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 14. When your changes are done, save the flow by clicking on the Save
@@ -386,19 +394,22 @@ that we created in Lab 2.
     Auto save automatically saves the flow.
 
     <img src="../assets/L3Images/media/image35.png"
-    style="width:6.26806in;height:3.01528in" />
+    style="width:100%; max-width:800px; height:auto;" />
 
 15. We are done with the changes and to make it live, toggle the
-    validation button for error checking.
+    validation button for error checking.The errors detected in 
+    the flow will be displayed in "red" text in validation check. The
+    errors need to be fixed to successfully save the flow.
+    The "yellow" text items are recommendations and can be ignored.
 
     <img src="../assets/L3Images/media/image36.png"
-    style="width:6.26806in;height:3.01389in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 16. Now click the “Publish flow” to put the flow in production.
 
     <img src="../assets/L3Images/media/image37.png"
-    style="width:6.26806in;height:3.03056in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 17. Publish Flow screen appears. This allows you to add version labels
@@ -412,13 +423,13 @@ that we created in Lab 2.
     default and is automatically added. Click Publish Flow again.
 
     <img src="../assets/L3Images/media/image38.png"
-    style="width:6.26806in;height:5.64545in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 18. The flow is now published.
 
     <img src="../assets/L3Images/media/image39.png"
-    style="width:6.26806in;height:3.32727in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 19. We can close the flow designer and link the flow to your voice
@@ -432,14 +443,14 @@ that we created in Lab 2.
     channel name.
 
     <img src="../assets/L3Images/media/image40.png"
-    style="width:6.26806in;height:1.93125in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 22. Click on your channel to open the configuration window and go to the
     Entry Point Settings section.
 
     <img src="../assets/L3Images/media/image41.png"
-    style="width:6.26806in;height:2.8in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     - Routing Flow: Select the flow for your pod from the drop down.
@@ -451,7 +462,7 @@ that we created in Lab 2.
     - Click Save
 
     <img src="../assets/L3Images/media/image42.png"
-    style="width:6.26806in;height:2.97708in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
   We are now ready to begin our testing of Lab 3.
@@ -477,11 +488,11 @@ summary and call drop summary is presented for this call.
 
 2. Login with the provided agent credentials.
 
-3. In the station credentials screen, select Desktop as the open and
-    select the team that belongs to your pod. Then click submit.
+3. In the station credentials screen, select Desktop as the telephony option 
+   and select the team that belongs to your pod. Then click submit.
 
     <img src="../assets/L3Images/media/image43.png"
-    style="width:4.94545in;height:4.26319in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a phone registration form AI-generated content may be incorrect." />
 
 4. Since this is the first time the agent is logging in, Emergency
@@ -489,14 +500,14 @@ summary and call drop summary is presented for this call.
     have read the notification” and click Continue.
 
     <img src="../assets/L3Images/media/image44.png"
-    style="width:4.94514in;height:4.38125in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a phone AI-generated content may be incorrect." />
 
 5. When you login for the first time using webRTC, if you get a warning
     message to allow microphone, select allow.
 
     <img src="../assets/L3Images/media/image45.png"
-    style="width:6.26806in;height:3.10208in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 6. When successfully connected to webRTC, you will see “Desktop
@@ -504,7 +515,7 @@ summary and call drop summary is presented for this call.
     ready to handle incoming calls.
 
     <img src="../assets/L3Images/media/image46.png"
-    style="width:6.26806in;height:1.20208in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screen shot of a computer AI-generated content may be incorrect." />
 
 7. We can now call in. Dial the telephone number that was assigned to
@@ -551,97 +562,105 @@ summary and call drop summary is presented for this call.
 14. On the agent desktop, set the agent status to “Available” state.
 
     <img src="../assets/L3Images/media/image47.png"
-    style="width:6.26806in;height:1.81944in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A group of people sitting at a table AI-generated content may be incorrect." />
 
     <img src="../assets/L3Images/media/image48.png"
-    style="width:6.26806in;height:1.50208in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 15. If the agent is logged into the appropriate team, the call should be
     delivered to the agent. Please refer to the incoming pop over for
-    the call information.
+    the call information. A screen pop of cisco.com webpage is delivered when the call
+    is delivered to the agent. The screen pop can be closed or tab over to the agent desktop
+    to continue further.
 
     <img src="../assets/L3Images/media/image49.png"
-    style="width:6.26806in;height:1.81528in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A group of people with a black background AI-generated content may be incorrect." />
 
 16. Click Answer, to answer the call.
 
     <img src="../assets/L3Images/media/image50.png"
-    style="width:6.26806in;height:1.78194in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screen shot of a computer AI-generated content may be incorrect." />
 
 17. When the call is answered, observe the agent desktop interaction
     control pane for the call information details.
 
     <img src="../assets/L3Images/media/image51.png"
-    style="width:6.26806in;height:2.98125in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 18. The customer journey widget will show the customer journey.
 
     <img src="../assets/L3Images/media/image52.png"
-    style="width:6.26806in;height:2.99722in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 19. Expand on an interaction in the customer journey widget to view the
     details.
 
     <img src="../assets/L3Images/media/image53.png"
-    style="width:6.26806in;height:4.05347in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     <img src="../assets/L3Images/media/image54.png"
-    style="width:6.26806in;height:3.46944in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 20. Pretend to be the customer and have a conversation with the agent
     regarding the product or cancellation policy for about 30secs.
 
-21. We will now simulate a system call drop by transferring the call to
+21. Click on Live Transcript and observe the real time transcription of the conversation.
+
+    <img src="../assets/L3Images/media/image69.png"
+    style="width:100%; max-width:800px; height:auto;"
+    alt="A screenshot of a computer AI-generated content may be incorrect." />
+
+22. We will now simulate a system call drop by transferring the call to
     a queue that will drop after 15secs.
 
-22. While the call is active on the agent desktop, click on the transfer
+23. While the call is active on the agent desktop, click on the transfer
     button.
 
     <img src="../assets/L3Images/media/image55.png"
-    style="width:6.26806in;height:2.95972in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
-23. In the transfer request window, select the radio button next to
+24. In the transfer request window, select the radio button next to
     Queue.
 
     <img src="../assets/L3Images/media/image56.png"
-    style="width:6.26806in;height:2.96458in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
-24. Hit the drop-down selection to choose from the list of queues and
+25. Hit the drop-down selection to choose from the list of queues and
     select “Call drop summary-Q”
 
     <img src="../assets/L3Images/media/image57.png"
-    style="width:6.26806in;height:2.99097in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     <img src="../assets/L3Images/media/image58.png"
-    style="width:6.26806in;height:6.10625in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a black screen AI-generated content may be incorrect." />
 
-25. Click on transfer to complete the call transfer.
+26. Click on transfer to complete the call transfer.
 
     <img src="../assets/L3Images/media/image59.png"
-    style="width:4.8in;height:3.84514in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a phone call AI-generated content may be incorrect." />
 
-26. Select the wrap up reason to complete the call.
+27. Select the wrap up reason to complete the call.
 
     <img src="../assets/L3Images/media/image60.png"
-    style="width:6.26806in;height:3.00764in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
-27. Dial the number again
+28. Dial the number again
 
-28. You will be greeted with the below greeting.
+29. You will be greeted with the below greeting.
 
     “Hello, \<first name\> \<last name\>. Thank you for calling. Please
     note, we have an active order for \<product name\> associated with
@@ -651,15 +670,13 @@ summary and call drop summary is presented for this call.
 
     This time Press 2 for different matter.
 
-29. You will hear the welcome message configured for your Ai Agent
-    within the Ai agent studio.
+30. You will hear the welcome message configured for your Ai Agent
+    within the Ai agent studio. Have a conversation with the Ai Agent based 
+    on the agent’s goal defined in lab 2. Ex:- What is the status of my order?
 
     <img src="../assets/L3Images/media/image61.png"
-    style="width:6.26806in;height:2.57083in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
-
-30. Have a conversation with the Ai Agent based on the agent’s goal
-    defined in lab 2.
 
 31. Ask the Ai Agent to transfer to the call to an agent.
 
@@ -670,7 +687,7 @@ summary and call drop summary is presented for this call.
     delivered to the agent desktop.
 
     <img src="../assets/L3Images/media/image62.png"
-    style="width:6.26806in;height:2.88125in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 34. When the call is answered, Cisco Ai Assistant pops up with virtual
@@ -678,41 +695,40 @@ summary and call drop summary is presented for this call.
     disconnected call.
 
     <img src="../assets/L3Images/media/image63.png"
-    style="width:6.26806in;height:2.99583in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 35. We are done servicing the customer and the agent disconnects the
-    call to transfer the customer to post call survey.
-
-36. From the agent desktop, click the End button to end the call. The
-    customer should hear the survey option. Please select a rating from
-    1-5 for CSAT.
+    call to transfer the customer to post call survey. From the agent desktop, 
+    click the End button to end the call. The customer should hear the survey option, 
+    "Please select a rating from 1-5 for CSAT", using the keypad of the telephone, press 
+    the corresponding # to complete the survey.
 
     <img src="../assets/L3Images/media/image64.png"
-    style="width:6.26806in;height:2.99583in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
-37. On the agent desktop, select the appropriate wrap-up reason code to
+36. On the agent desktop, select the appropriate wrap-up reason code to
     clear the call.
 
-38. The survey results take upto 24 hours to show up within the control
+37. The survey results take upto 24 hours to show up within the control
     hub.
 
-39. Login to control hub using your admin username and password and
+38. To downloas the survey results, login to control hub using your admin username and password,
     navigate to Contact Center.
 
-40. From the contact center main menu, click on surveys. The responses
+39. From the contact center main menu, click on surveys. The responses
     column will show the number of surveys completed. The survey results
     can be viewed by clicking the download button.
 
     <img src="../assets/L3Images/media/image65.png"
-    style="width:6.26806in;height:1.79306in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
-41. Auto CSAT gets populated in Supervisor Desktop when it has
+40. Auto CSAT gets populated in Supervisor Desktop when it has
     sufficient data modeling available to show the Auto CSAT scores.
-    Login to the supervisor desktop using URL [Supervisor
-    Desktop](https://desktop.wxcc-us1.cisco.com/)
+    Sign out of your agent desktop or open a incognito windos and login to the 
+    supervisor desktop using URL [Supervisor Desktop](https://desktop.wxcc-us1.cisco.com/)
 
     Use the supervisor login and password to login.
 
@@ -720,22 +736,26 @@ summary and call drop summary is presented for this call.
     select desktop for the telephony option.
 
     <img src="../assets/L3Images/media/image66.png"
-    style="width:6.26806in;height:3.59097in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screen shot of a computer AI-generated content may be incorrect." />
 
-42. When logged in, navigate to the recordings widget on the left pane
+41. When logged in, navigate to the recordings widget on the left pane
     of the supervisor desktop.
 
     <img src="../assets/L3Images/media/image67.png"
-    style="width:6.26806in;height:3.60347in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
-43. Adjust the date filter to show the recordings. Note the Auto CSAR
+42. Adjust the date filter to show the recordings. Note the Auto CSAR
     column is blank and this is expected since there isn’t sufficient
     data available for Auto CSAT to populate.
 
     <img src="../assets/L3Images/media/image68.png"
-    style="width:6.26806in;height:2.99861in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     **Congratulations!! This concludes Lab 3.**
+
+    **Thank you for your participation. Your feedback helps us get better. Click the link below to complete the survey** 
+    
+    **[CLICK HERE FOR SURVEY](https://app.sli.do/event/k6EBQDwRnR3SvV8q6URUyw)**
