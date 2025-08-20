@@ -99,7 +99,7 @@ Think of this lab as a starting point—there’s a lot more to discover!
         added to few groups and can be ignored.
 
     <img src="../assets/L2newImages/media/image1.png"
-    style="width:3.77083in;height:2.76854in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer Description automatically generated" />
 
 2.  The AI Agent dashboard is launched.
@@ -107,13 +107,13 @@ Think of this lab as a starting point—there’s a lot more to discover!
 3.  Click Create agent button in the top right corner.
 
     <img src="../assets/L2newImages/media/image2.png"
-    style="width:6.26806in;height:1.77292in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A drawing of a cat and a bowl AI-generated content may be incorrect." />
 
 4.  Click Start from scratch.
 
     <img src="../assets/L2newImages/media/image3.png"
-    style="width:6.26806in;height:3in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 5.  Click Next button.
@@ -121,7 +121,7 @@ Think of this lab as a starting point—there’s a lot more to discover!
 6. Click Autonomous and configuration screen will appear.
 
     <img src="../assets/L2newImages/media/image4.png"
-    style="width:5.12708in;height:3.67273in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 7. Fill in the **Agent name** and **Agent’s goal**. The **System ID**
@@ -136,7 +136,7 @@ Think of this lab as a starting point—there’s a lot more to discover!
     your Pod#.
 
     <img src="../assets/L2newImages/media/image5.png"
-    style="width:6.26806in;height:3.67431in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     Feel free to experiment with different wording for the **Agent’s
@@ -164,7 +164,7 @@ Think of this lab as a starting point—there’s a lot more to discover!
 9. The AI Agent profile tab is presented.
 
     <img src="../assets/L2newImages/media/image6.png"
-    style="width:6.26806in;height:2.37014in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 ### Configure AI Agents Instructions
@@ -244,7 +244,8 @@ Instructions serve as a guide for the full range of the AI Agent’s
 capabilities and also provide a space to refine responses retrieved from
 the Knowledge Base.
 
-<img src="../assets/L2newImages/media/image7.png" style="width:6.26806in;height:2.64306in"/>
+<img src="../assets/L2newImages/media/image7.png" 
+style="width:100%; max-width:800px; height:auto;"/>
 
 Click the **Save changes** button. This will save the agent and put it
 into a state that’s ready to be previewed. That completes the initial
@@ -262,7 +263,7 @@ We will now add knowledge base articles to train the AI Agent.
     the “Create Knowledge base” button in the top right of the screen.
 
     <img src="../assets/L2newImages/media/image9.png"
-    style="width:6.26806in;height:3.63333in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 
@@ -270,7 +271,7 @@ We will now add knowledge base articles to train the AI Agent.
     Ex: - Pod60 Knowledge base and click Create.
 
     <img src="../assets/L2newImages/media/image10.png"
-    style="width:6.26806in;height:3.37639in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 3. You will then see the knowledge base management dashboard where you
@@ -281,11 +282,11 @@ We will now add knowledge base articles to train the AI Agent.
 5. Documents – This is the method we will use for this lab
 
     <img src="../assets/L2newImages/media/image11.png"
-    style="width:6.26806in;height:2.11597in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
-    *Additional means of adding knowledge sources will become available
-    post General Availability, including URLs as sources of information*.
+    **Additional means of adding knowledge sources will become available
+    post General Availability, including URLs as sources of information**.
 
 6. Open a new tab in your browser and go to <https://webexcc-sa.github.io/LAB-2334/kb/>
     and copy the Product Information section till you reach Cisco Store.
@@ -293,17 +294,17 @@ We will now add knowledge base articles to train the AI Agent.
     tab open.
 
     <img src="../assets/L2newImages/media/image12.png"
-    style="width:6.26806in;height:2.63636in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     <img src="../assets/L2newImages/media/image13.png"
-    style="width:6.26806in;height:2.82727in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 7. Now tab back to the knowledge base section and click on “Documents”.
 
     <img src="../assets/L2newImages/media/image14.png"
-    style="width:6.26806in;height:2.11597in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screen shot of a computer AI-generated content may be incorrect." />
 
 8. Click on “+Create Document” and in the pop for Document name add the
@@ -316,50 +317,50 @@ We will now add knowledge base articles to train the AI Agent.
     - Click "Save".
 
     <img src="../assets/L2newImages/media/image15.png"
-    style="width:6.26806in;height:2.58056in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     <img src="../assets/L2newImages/media/image16.png"
-    style="width:6.26806in;height:2.8625in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 9. In the Enter Document content section, click on the "Enter document content"
    to paste the information copied in step \#4 and click save on the top right.
 
     <img src="../assets/L2newImages/media/image17.png"
-    style="width:6.26806in;height:2.62014in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     <img src="../assets/L2newImages/media/image18.png"
-    style="width:6.26806in;height:2.85278in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
-10. Refer to step \#4 (open <https://webexcc-sa.github.io/LAB-2334/kb> ) to copy the
+10. Refer to step \#4 or open [KB Link](https://webexcc-sa.github.io/LAB-2334/kb) to copy the
     rest of the information for Cisco Store: orders and returns.
 
     <img src="../assets/L2newImages/media/image19.png"
-    style="width:6.26806in;height:3.16042in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 11. Now tab back to the knowledge base creation and click on Create
     Document.
 
     <img src="../assets/L2newImages/media/image20.png"
-    style="width:6.26806in;height:2.16736in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 12. For the document name – Cisco Store Orders and Returns and Add to
     existing category of Product and click Save.
 
     <img src="../assets/L2newImages/media/image21.png"
-    style="width:6.04514in;height:2.89091in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer screen AI-generated content may be incorrect." />
 
     In the Enter Document content section, click on the "Enter document content" 
     to paste the information copied in step \#10 and click save on the top right.
 
     <img src="../assets/L2newImages/media/image22.png"
-    style="width:6.26806in;height:2.28125in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     These files may take some time to save and in the mean time we will
@@ -369,13 +370,13 @@ We will now add knowledge base articles to train the AI Agent.
     Agent.
 
     <img src="../assets/L2newImages/media/image23.png"
-    style="width:3.90909in;height:3.76319in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 14. Click on the Knowledge tab
 
     <img src="../assets/L2newImages/media/image24.png"
-    style="width:6.26806in;height:3.49653in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 15. Select the Knowledge Base that belongs to your pod from the dropdown
@@ -383,31 +384,32 @@ We will now add knowledge base articles to train the AI Agent.
     will display the knowledge base for all Pods.
 
     <img src="../assets/L2newImages/media/image25.png"
-    style="width:6.26806in;height:4.09861in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     <img src="../assets/L2newImages/media/image26.png"
-    style="width:6.26806in;height:4.09861in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 16. Click on Save Changes to make the changes “live”.
 
     <img src="../assets/L2newImages/media/image27.png"
-    style="width:6.26806in;height:1.51875in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     Note: - You only need to **Save** your changes to preview them in
     the Studio. **Publishing** is only required when you want to push
     updates into production for use within digital or voice flows.
 
-17. Go ahead and preview your agent by clicking on Preview.
+17. Go ahead and preview your agent by clicking on Preview. Select either "Start a chat"
+    or Start a call" to preview the AI Agent.
 
     <img src="../assets/L2newImages/media/image28.png"
-    style="width:6.26806in;height:1.26458in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a phone AI-generated content may be incorrect." />
 
     <img src="../assets/L2newImages/media/image29.png"
-    style="width:6.26806in;height:2.99792in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 18. Type in any question and observe how the AI agent responds. Feel
@@ -442,7 +444,7 @@ service where you created your flows previously.
     connect quick link.
 
     <img src="../assets/L2newImages/media/image32.png"
-    style="width:6.26806in;height:2.99583in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 
@@ -450,13 +452,13 @@ service where you created your flows previously.
     started.
 
     <img src="../assets/L2newImages/media/image33.png"
-    style="width:6.26806in;height:2.35972in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 3. Go to flows and click on Create Flow.
 
     <img src="../assets/L2newImages/media/image34.png"
-    style="width:6.26806in;height:2.12639in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 4. We have provided a starter flow that gets executed based on the
@@ -467,26 +469,26 @@ service where you created your flows previously.
    and select “All_Action_Starter_Flow” and then click “Create”.
 
     <img src="../assets/L2newImages/media/image35.png"
-    style="width:6.26806in;height:4.67361in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a chat AI-generated content may be incorrect." />
 
     <img src="../assets/L2newImages/media/image36.png"
-    style="width:6.26806in;height:2.94514in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 5. In the Configure AI Agent Event window, click save.
 
     <img src="../assets/L2newImages/media/image37.png"
-    style="width:6.26806in;height:4.03056in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 6. Open the “Evaluate” node within the flow to modify.
 
     <img src="../assets/L2newImages/media/image38.png"
-    style="width:6.26806in;height:2.96667in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
-7. Modify the text to replace **WXCC TELEPHONE NUMBER** with the
+7. Modify the text to replace <**WXCC TELEPHONE NUMBER>** with the
     Telephone number that was assigned to the pod. Ex: - if the
     telephone number assigned was 14082221111, the below text will look
     like
@@ -498,11 +500,11 @@ service where you created your flows previously.
     ```
 
     <img src="../assets/L2newImages/media/image39.png"
-    style="width:6.26806in;height:4.04375in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     <img src="../assets/L2newImages/media/image40.png"
-    style="width:6.26806in;height:5.38472in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 8. Click save to save the Evaluate node config.
@@ -510,13 +512,13 @@ service where you created your flows previously.
 9. Click Make Live to put the flow in production.
 
     <img src="../assets/L2newImages/media/image41.png"
-    style="width:6.26806in;height:2.88264in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 10. In the next window, click “make Live” again to make the flow live.
 
     <img src="../assets/L2newImages/media/image42.png"
-    style="width:6.26806in;height:4.04653in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screen shot of a computer AI-generated content may be incorrect." />
 
 ### **Step 2**: Create the Action in AI Agent Studio
@@ -525,10 +527,10 @@ We will now link the AI Agent instruction of \[fetch_status\] to the
 action/task flow that we just built.
 
 1.  Back in the AI Agent menu within the AI Agent studio, click on the
-    Actons tab to open the list of available actions.
+    Actions tab to open the list of available actions.
 
     <img src="../assets/L2newImages/media/image43.png"
-    style="width:6.26806in;height:2.71458in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     By default, there is a pre-created action called Agent Handover. If
@@ -548,7 +550,7 @@ action/task flow that we just built.
 2. In the Action tab click on New Action to get started.
 
     <img src="../assets/L2newImages/media/image44.png"
-    style="width:6.26806in;height:1.72083in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 3. The first action is called “fetch_status”. Enter the action name
@@ -557,7 +559,7 @@ action/task flow that we just built.
     Agents Instructions.
 
     <img src="../assets/L2newImages/media/image45.png"
-    style="width:4.66667in;height:3.33333in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     Enter the following as the **Action description**:
@@ -575,7 +577,7 @@ action/task flow that we just built.
   entity”.
 
     <img src="../assets/L2newImages/media/image46.png"
-    style="width:5.67715in;height:1.24028in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 ### **Step 3**: Configure the Input Entities
@@ -588,7 +590,7 @@ For reference, below is the image of the input that we setup in the
 action flow.
 
 <img src="../assets/L2newImages/media/image47.png"
-style="width:2.73636in;height:1.48125in"
+style="width:100%; max-width:800px; height:auto;"
 alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 These entities represent the variables the agent needs to collect from
@@ -615,33 +617,36 @@ transmission.
     guiding the AI Agent by providing sample inputs that illustrate what
     user responses might look like. This can improve the agent’s ability
     to recognize and extract the correct values from user interactions.
+    Ex:- In the image shown below, the example used is 14082221111, and is a
+    fake phone number. The example can be fake data, as it is used to illustrate
+    the format of the phone number to the AI Agent.
 
 4. Click **Add** once you’re done and you’ll see the Entity appear in
     the list as follows:
 
 
     <img src="../assets/L2newImages/media/image48.png"
-    style="width:4.61997in;height:3.20909in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 
     <img src="../assets/L2newImages/media/image49.png"
-    style="width:6.26806in;height:1.07292in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A close up of a white envelope AI-generated content may be incorrect." />
 
-5. We will now add a second entity to pass the action name which will
-    be used in the action flow to branch accordingly. Click on +New
-    input entity to add a new entity.
+5. We will now add a second entity to pass the action name. The actionName is used 
+   in all action flow to branch to different actions that needs to be executed.
+   Click on +New input entity to add a new entity.
 
     <img src="../assets/L2newImages/media/image50.png"
-    style="width:6.26806in;height:1.25556in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 6. Set the Entity Name to “actionName” (Note:- pay attention to case
     sensitiveness).
 
     <img src="../assets/L2newImages/media/image51.png"
-    style="width:6.26806in;height:5.175in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 7. Set the Entity Type to String.
@@ -655,7 +660,7 @@ transmission.
     example as “fetch_status” and click Add.
 
     <img src="../assets/L2newImages/media/image52.png"
-    style="width:6.26806in;height:5.50764in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 ### **Step 4**: Tie the Action to the Flow
@@ -664,7 +669,7 @@ transmission.
     to the “Webex Connect Flow Builder Fulfillment” section.
 
     <img src="../assets/L2newImages/media/image53.png"
-    style="width:6.26806in;height:2.10556in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     - For “Select service” – select your service. The service is named Pod
@@ -677,7 +682,7 @@ transmission.
     - The action we just added should show up in the list now.
 
     <img src="../assets/L2newImages/media/image54.png"
-    style="width:5.67715in;height:1.59167in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 2. Click Save/Publish
@@ -686,20 +691,22 @@ transmission.
    the changes made to the AI Agent configuration.
 
     <img src="../assets/L2newImages/media/image55.png"
-    style="width:5.29167in;height:2.48958in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer Description automatically generated" />
 
 4. Once published, preview the AI Agent to test the action and ensure
     it is working as expected.
 
     <img src="../assets/L2newImages/media/image56.png"
-    style="width:6.26806in;height:1.59167in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
-5. We can now preview and test the AI Agent with actions.
+5. We can now preview and test the AI Agent with actions. When prompted for 
+   "orderId", provide the orderId that was created in Lab 1 and should be your
+   phone number as instructed in Lab 1.
 
     <img src="../assets/L2newImages/media/image57.png"
-    style="width:6.26806in;height:3in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     - Try asking for the **order status** in different ways to see how the
@@ -741,8 +748,10 @@ earlier section.
 
 #### Change Delivery Date Action
 
-1.  Go back to AI Agent Studio and this time let’s explore another way
-    of launching the studio. While you are in the WxConnect, go to App
+1.  To continue with the configuration, we need to get back to the Agent Studio. 
+    In case you don't have the AI Agent Studio tab already opened, here is another way 
+    to launch it.
+    While you are in the WxConnect, go to App
     tray which is represented as
     <img src="../assets/L2newImages/media/image58.png"
     style="width:0.39526in;height:0.29167in"
@@ -750,7 +759,7 @@ earlier section.
     in the tool bar and click AI Agent Studio to launch the studio.
 
     <img src="../assets/L2newImages/media/image59.png"
-    style="width:4.46364in;height:5.3175in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 
@@ -758,20 +767,20 @@ earlier section.
     the section Goal 1 – Create an AI Agent in the AI Agent Studio
 
     <img src="../assets/L2newImages/media/image60.png"
-    style="width:5.67273in;height:3.52688in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a search AI-generated content may be incorrect." />
 
 3. In AI Agent configuration, click on “Actions” to configure a new
     Action.
 
     <img src="../assets/L2newImages/media/image61.png"
-    style="width:6.26806in;height:2.92431in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 4. When you are in AI Agent configuration, click “+ New action”.
 
     <img src="../assets/L2newImages/media/image62.png"
-    style="width:6.26806in;height:1.69444in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 5. Configure the new action with the following details:
@@ -780,17 +789,17 @@ earlier section.
 
     - Action description
         ```
-            Collect the orderId (if not already known) and ask the user for
-            their new preferred delivery date. The delivery date will be used to
-            overwrite the "deliveryETA" value in this action. Note that the user
-            can change the delivery date, even if the order has already been
-            shipped
+        Collect the orderId (if not already known) and ask the user for
+        their new preferred delivery date. The delivery date will be used to
+        overwrite the "deliveryETA" value in this action. Note that the user
+        can change the delivery date, even if the order has already been
+        shipped
         ```
 
     - Action scope – slot filling and fulfillment
 
         <img src="../assets/L2newImages/media/image63.png"
-        style="width:6.26806in;height:4.17292in"
+        style="width:100%; max-width:800px; height:auto;"
         alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 6. Let us now add a new Entity to collect the new_deliveryETA. When the
@@ -799,7 +808,7 @@ earlier section.
     Entity. Click “+ New input entity” under Slot filling.
 
     <img src="../assets/L2newImages/media/image64.png"
-    style="width:6.26806in;height:1.1625in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 7. Enter the following details for the new input entity
@@ -823,7 +832,7 @@ earlier section.
     - Click Add
 
     <img src="../assets/L2newImages/media/image65.png"
-    style="width:4.96364in;height:4.2in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 8. Let us add the orderId entity in case the order ID needs to be
@@ -843,7 +852,7 @@ earlier section.
     - Click Add
 
     <img src="../assets/L2newImages/media/image66.png"
-    style="width:5.38125in;height:3.46364in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 9. Let us add the actionName entity to set the action name to execute
@@ -865,39 +874,39 @@ earlier section.
     - Click Add
 
     <img src="../assets/L2newImages/media/image67.png"
-    style="width:6.26806in;height:4.24419in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 10. Now we will link the flow to this action under the section Webex
     Connect Flow Builder Fulfillment.
 
     - Select service: The service that belongs to your Pod. Ex: - if the pod
-  assigned to you is 60, then the service is Pod60.
+      assigned to you is 60, then the service is Pod60.
 
     - Select a flow: Select the Pod# All Actions Flow that was created Step
       1: Create the flow in Webex Connect section.
 
     <img src="../assets/L2newImages/media/image68.png"
-    style="width:6.26806in;height:3.10139in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a web page AI-generated content may be incorrect." />
 
 11. Click Add to add the new action.
 
     <img src="../assets/L2newImages/media/image69.png"
-    style="width:6.26806in;height:1.32917in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 12. We can test this action by clicking “Preview”.
 
     <img src="../assets/L2newImages/media/image70.png"
-    style="width:6.26806in;height:2.28182in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 13. It’s in testing that we **may** see an interesting response from the
     Agent:
 
     <img src="../assets/L2newImages/media/image71.png"
-    style="width:3.375in;height:1.97917in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a chat AI-generated content may be incorrect." />
 
     Sometimes, the agent may demand a date format from us, which is
@@ -912,18 +921,18 @@ earlier section.
     and add the following to the **\[change_date\]** action:
 
     ```
-    *“The user can provide this date in any way, using natural language, and
+    *The user can provide this date in any way, using natural language, and
     you will be able to interpret it correctly. For example, if they say
     "tomorrow", then you will understand that to mean tomorrow's date. You
-    will then save this value as mm/dd/yyyy.”*
+    will then save this value as mm/dd/yyyy.*
     ```
 
     <img src="../assets/L2newImages/media/image72.png"
-    style="width:6.16667in;height:2.30208in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A close up of a message Description automatically generated" />
 
     <img src="../assets/L2newImages/media/image73.png"
-    style="width:2.61875in;height:1.91806in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a chat AI-generated content may be incorrect." />
 
     This adjustment will result in a **more user-friendly response** and
@@ -940,14 +949,14 @@ We will now add safe_area action.
     Action.
 
     <img src="../assets/L2newImages/media/image61.png"
-    style="width:6.26806in;height:2.92431in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 
 2. When you are in AI Agent configuration, click “+ New action”.
 
     <img src="../assets/L2newImages/media/image62.png"
-    style="width:6.26806in;height:1.69444in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 3. Configure the new action with the following details:
@@ -956,23 +965,23 @@ We will now add safe_area action.
 
     - Action description
         ```
-                Collect the orderId (if not already known) and use it to update the
-                "safeLocation" value.
+        Collect the orderId (if not already known) and use it to update the
+        "safeLocation" value.
 
-                The user can specify or change the location where they'd like the
-                courier to leave the package when it's delivered to their home.
-                Typical options may include the following:
+        The user can specify or change the location where they'd like the
+        courier to leave the package when it's delivered to their home.
+        Typical options may include the following:
 
-                1. Front Door  
-                2. Back Door  
-                3. Garage Door  
-                4. Neighbor's House  
-                5. Other (please ask to specify)
+            1. Front Door  
+            2. Back Door  
+            3. Garage Door  
+            4. Neighbor's House  
+            5. Other (please ask to specify)
 
-                Offer the user these options as a numerical list so that they can also
-                reply with a number to correlate to their preferred safe location.
-                When a number is entered, you'll know this to refer to the desired
-                location and you'll update the record appropriately.
+        Offer the user these options as a numerical list so that they can also
+        reply with a number to correlate to their preferred safe location.
+        When a number is entered, you'll know this to refer to the desired
+        location and you'll update the record appropriately.
         ```
 
 
@@ -985,7 +994,7 @@ We will now add safe_area action.
     - Action scope – slot filling and fulfillment
 
         <img src="../assets/L2newImages/media/image74.png"
-        style="width:6.26806in;height:3.76364in"
+        style="width:100%; max-width:800px; height:auto;"
         alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 4. Let us now add a new Entity to collect the new_safeLocation. When
@@ -994,7 +1003,7 @@ We will now add safe_area action.
     Slot filling.
 
     <img src="../assets/L2newImages/media/image64.png"
-    style="width:6.26806in;height:1.1625in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 5. Enter the following details for the new input entity
@@ -1005,10 +1014,10 @@ We will now add safe_area action.
 
     - Description:
     ```
-        The new location that the user would like to have the
-        package left when delivered to their home. Please offer the numerical
-        list as described in the "action description", along with the option
-        to specify any safe location they would like.
+    The new location that the user would like to have the
+    package left when delivered to their home. Please offer the numerical
+    list as described in the "action description", along with the option
+    to specify any safe location they would like.
     ```
 
     - Required: Yes
@@ -1016,7 +1025,7 @@ We will now add safe_area action.
     - Click Add
 
         <img src="../assets/L2newImages/media/image75.png"
-        style="width:6.26806in;height:4.03636in"
+        style="width:100%; max-width:800px; height:auto;"
         alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 6. Let us add the orderId entity in case the order ID needs to be
@@ -1036,7 +1045,7 @@ We will now add safe_area action.
     - Click Add
 
         <img src="../assets/L2newImages/media/image66.png"
-        style="width:5.38125in;height:3.46364in"
+        style="width:100%; max-width:800px; height:auto;"
         alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 7. Let us add the actionName entity to set the action name to execute
@@ -1058,7 +1067,7 @@ We will now add safe_area action.
     - Click Add
 
         <img src="../assets/L2newImages/media/image76.png"
-        style="width:6.26806in;height:5.53264in"
+        style="width:100%; max-width:800px; height:auto;"
         alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 8. Now we will link the flow to this action under the section Webex
@@ -1070,19 +1079,19 @@ We will now add safe_area action.
     - Select a flow: Select the Pod# All Actions Flow that was created Step1: Create the flow in Webex Connect section.
 
         <img src="../assets/L2newImages/media/image68.png"
-        style="width:6.26806in;height:3.10139in"
+        style="width:100%; max-width:800px; height:auto;"
         alt="A screenshot of a web page AI-generated content may be incorrect." />
 
 9. Click Add to add the new action.
 
     <img src="../assets/L2newImages/media/image77.png"
-    style="width:6.26806in;height:1.77778in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 10. We can test this action by clicking “Preview”.
 
     <img src="../assets/L2newImages/media/image70.png"
-    style="width:6.26806in;height:2.28182in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 #### Cancel Order Action
@@ -1093,13 +1102,13 @@ We will now add cancel_order action.
     Action.
 
     <img src="../assets/L2newImages/media/image61.png"
-    style="width:6.26806in;height:2.92431in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 2. When you are in AI Agent configuration, click “+ New action”.
 
     <img src="../assets/L2newImages/media/image62.png"
-    style="width:6.26806in;height:1.69444in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 3. Configure the new action with the following details:
@@ -1123,7 +1132,7 @@ We will now add cancel_order action.
     - Action scope – slot filling and fulfillment
 
         <img src="../assets/L2newImages/media/image78.png"
-        style="width:4.35417in;height:3.76042in"
+        style="width:100%; max-width:800px; height:auto;"
         alt="A screenshot of a computer Description automatically generated" />
 
 4. Let us now add a new Entity to collect the orderId. When the user
@@ -1132,7 +1141,7 @@ We will now add cancel_order action.
     filling.
 
     <img src="../assets/L2newImages/media/image64.png"
-    style="width:6.26806in;height:1.1625in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 5. Let us add the orderId entity in case the order ID needs to be
@@ -1152,7 +1161,7 @@ We will now add cancel_order action.
     - Click Add
 
         <img src="../assets/L2newImages/media/image79.png"
-        style="width:5.63636in;height:3.72708in"
+        style="width:100%; max-width:800px; height:auto;"
         alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 6. Let us add the actionName entity to set the action name to execute
@@ -1174,7 +1183,7 @@ We will now add cancel_order action.
     - Click Add
 
         <img src="../assets/L2newImages/media/image80.png"
-        style="width:6.26806in;height:4.77907in"
+        style="width:100%; max-width:800px; height:auto;"
         alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 7. Now we will link the flow to this action under the section Webex
@@ -1186,28 +1195,29 @@ We will now add cancel_order action.
     - Select a flow: Select the Pod# All Actions Flow that was created Step1: Create the flow in Webex Connect section.
 
         <img src="../assets/L2newImages/media/image68.png"
-        style="width:6.26806in;height:3.10139in"
+        style="width:100%; max-width:800px; height:auto;"
         alt="A screenshot of a web page AI-generated content may be incorrect." />
 
 8. Click Add to add the new action.
 
     <img src="../assets/L2newImages/media/image81.png"
-    style="width:6.26806in;height:1.7375in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 9. We can test this action by clicking “Preview”.
 
     <img src="../assets/L2newImages/media/image70.png"
-    style="width:6.26806in;height:2.28182in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     <img src="../assets/L2newImages/media/image82.png"
-    style="width:3.34375in;height:3.66667in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a chat AI-generated content may be incorrect." />
 
-    **When the delivery status in the CRM is set to “shipped”, the AI Agent will 
-    always inform the user that the order cannot be canceled and will provide
-    the appropriate contact number for further assistance.**
+    **In the example shown above in step #9, the delivery status is set to “shipped”. 
+    With the delivery status is set to "shipped" the AI Agent will always inform the 
+    customer that the order cannot be canceled and will provide the appropriate contact 
+    number for further assistance.**
 
     This mechanism also serves as a built-in escalation path to a human
     agent, entirely handled through prompting, without requiring
@@ -1215,15 +1225,16 @@ We will now add cancel_order action.
 
     **Verifying the Action Flow:**
 
-    If you want to test the cancellation process, use Update CRM (The
-    process can be found in Lab 1 guide) to manually set the
-    deliveryStatus variable to any value other than “shipped”.
+    To test the cancellation process for "Not Shipped" status, use Update CRM (process can 
+    be found in Lab 1 guide [CRM Setup](http://docs.cxocoe.us/Lab1/#goal-1-crm-setup)) to 
+    manually set the deliveryStatus variable to "Not shipped”.
 
     Once updated, the AI Agent will recognize the change and proceed to
     cancel the order, updating the status to CANCELLED accordingly.
 
-    Please click “Publish” to publish the AI Agent and put it in
-    production.
+    Please click “Publish” to publish the AI Agent. When prompted, include a 
+    comment summarizing the updates made to this version of the AI Agent and 
+    proceed to deploy it to production
 
 That concludes **Agent Actions** and the **AI Agent Studio** portion of
 this lab. 🚀
@@ -1256,7 +1267,7 @@ production.
     connect quick link.
 
     <img src="../assets/L2newImages/media/image32.png"
-    style="width:6.26806in;height:2.99583in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 
@@ -1264,13 +1275,13 @@ production.
     started.
 
     <img src="../assets/L2newImages/media/image33.png"
-    style="width:6.26806in;height:2.35972in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 3. Go to flows and click on Create Flow.
 
     <img src="../assets/L2newImages/media/image34.png"
-    style="width:6.26806in;height:2.12639in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 4. In create flow window enter the following details:
@@ -1286,7 +1297,7 @@ production.
     - Click “Create”.
 
         <img src="../assets/L2newImages/media/image83.png"
-        style="width:6.26806in;height:2.92847in"
+        style="width:100%; max-width:800px; height:auto;"
         alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 5. Configure webhook window appears. We are going to create a new
@@ -1313,11 +1324,11 @@ production.
     - Click Save.
 
         <img src="../assets/L2newImages/media/image84.png"
-        style="width:6.26806in;height:2.06181in"
+        style="width:100%; max-width:800px; height:auto;"
         alt="A screenshot of a computer AI-generated content may be incorrect." />
 
         <img src="../assets/L2newImages/media/image85.png"
-        style="width:6.26806in;height:4.04514in"
+        style="width:100%; max-width:800px; height:auto;"
         alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 6. We now need to modify the SMS nodes to add the sms number. In the
@@ -1325,7 +1336,7 @@ production.
     marked as 1 by clicking on it.
 
     <img src="../assets/L2newImages/media/image86.png"
-    style="width:6.26806in;height:2.41736in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A diagram of a network AI-generated content may be incorrect." />
 
 7. The SMS configuration window opens and check the “From Number”, it
@@ -1333,14 +1344,14 @@ production.
     stores the SMS number.
 
     <img src="../assets/L2newImages/media/image87.png"
-    style="width:6.26806in;height:2.50208in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     Click on the “From Number” and select “yourAssignedSMSNumber”
     variable from the drop down under Custom Variables and click “Save”.
 
     <img src="../assets/L2newImages/media/image88.png"
-    style="width:6.26806in;height:4.05in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 8. Repeat the steps to complete the configuration for SMS nodes \#2 and
@@ -1351,7 +1362,7 @@ production.
     node and click save even if the node is configured correctly.
 
     <img src="../assets/L2newImages/media/image89.png"
-    style="width:6.26806in;height:2.20139in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A diagram of a network AI-generated content may be incorrect." />
 
     If the Receive node Number is blank, click on the Number field and
@@ -1359,14 +1370,14 @@ production.
     drop down. Select “\*” for the keyword and click Save.
 
     <img src="../assets/L2newImages/media/image90.png"
-    style="width:6.26806in;height:4.03194in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 10. Next, we are going to modify the AI Agent nodes in the flow. There
     are two AI Agent nodes in the below flow that needs to be modified.
 
     <img src="../assets/L2newImages/media/image91.png"
-    style="width:6.26785in;height:2.22727in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A diagram of a network AI-generated content may be incorrect." />
 
     Open the AI Agent node \#1 to modify. Click the AGENT field and in
@@ -1377,14 +1388,14 @@ production.
     Click Save to complete.
 
     <img src="../assets/L2newImages/media/image92.png"
-    style="width:6.26806in;height:4.03333in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 11. Repeat the steps for AI Agent node \#2, the completed node
     configuration of AI Agent node \#2 is shown below. Click Save.
 
     <img src="../assets/L2newImages/media/image93.png"
-    style="width:6.26806in;height:4.03194in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 12. All the configuration changes for this flow are complete. Click
@@ -1392,11 +1403,11 @@ production.
     configuration window appears as shown below.
 
     <img src="../assets/L2newImages/media/image94.png"
-    style="width:4.96319in;height:2.9in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     <img src="../assets/L2newImages/media/image95.png"
-    style="width:6.26806in;height:4.04375in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 13. Click Make live again to put the flow in Production.
@@ -1408,16 +1419,28 @@ triggered by certain notifications from the CRM or system of record
 updates as a proactive notifications. We will simulate this by creating this notification and keep
 your mobile phones ready, let us begin testing.
 
-Note: - If the delivery status is set to “Not Shipped”, use the “Update
+<!--Note: - If the delivery status is set to “Not Shipped”, use the “Update
 CRM” to set the delivery status to “Shipped” for this part of the
 testing and do the order cancellation as the last step, as this will be
-the lead into lab3.
+the lead into lab3. -->
 
-1.  Open the flow that we put into production and double click on the
-    first node “Trigger AI Agent Flow”.
+1.  Open a web browser and login to <http://crm.cxocoe.us> with the
+    provided credentials.
+
+2.  Click on “Update CRM Data”
+
+    <img src="../assets/L2newImages/media/image107.png"
+    style="width:100%; max-width:800px; height:auto;"
+    alt="A screenshot of a computer AI-generated content may be incorrect." />
+
+    The field to update is Delivery Status and the value is “Not
+    shipped”. Then click “Update Record”.
+
+3.  Open the flow that was put into production in Goal 5 step #13 and double click on the
+    first node “Configure Webhook”.
 
     <img src="../assets/L2newImages/media/image96.png"
-    style="width:6.26806in;height:2.18889in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A diagram of a computer AI-generated content may be incorrect." />
 
     In the configuration window, locate the field named “Webhook URL”
@@ -1426,94 +1449,110 @@ the lead into lab3.
     part of the URL “XXXXXXXXXX” to test.
 
     <img src="../assets/L2newImages/media/image97.png"
-    style="width:6.26806in;height:3.05694in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
-2.  Open a web browser and login to <http://crm.cxocoe.us> with the
-    credentials provided.
+4.  If you don't have the CRM page open, click open a web browser and login 
+    to [CRM](http://crm.cxocoe.us) with the credentials provided.
 
     <img src="../assets/L2newImages/media/image98.png"
-    style="width:6.26806in;height:3.41111in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 
-3.  Click on “Kick off Proactive Flow”.
+5.  Click on “Kick off Proactive Flow”.
 
     <img src="../assets/L2newImages/media/image99.png"
-    style="width:6.26806in;height:5.13819in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a webpage AI-generated content may be incorrect." />
 
     - Phone Number: *Enter your mobile number with country code. Ex: -
     14081111111*
 
-    - Webhook Id: *Enter the copied text from step \#1*
+    - Webhook Id: *Enter the copied text from step \#3*
 
     Then click on “Start Flow” to trigger the proactive journey.
 
     <img src="../assets/L2newImages/media/image100.png"
-    style="width:6.26536in;height:4.00909in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
-4.  The flows provide debug capability to identify any issues with the
-    configuration. The debug can be accessed by clicking on bug icon
-    that is located on the right of the flow.
+6.  The webex connect flows provide debug capability to identify any issues with the
+    configuration. Login into webex connect and open the flow, the debug can be accessed 
+    by clicking on bug icon that is located on the right of the flow.
 
     <img src="../assets/L2newImages/media/image101.png"
-    style="width:6.26806in;height:2.76111in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     The debug window contains list of transaction id’s that the flow has
     executed. Click on the appropriate transaction id to debug.
 
     <img src="../assets/L2newImages/media/image102.png"
-    style="width:6.26806in;height:2.33889in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
     The debug output is encrypted by default. Click “Decrypt Logs” to
     view the logs in plain text.
 
     <img src="../assets/L2newImages/media/image103.png"
-    style="width:6.26806in;height:2.99375in"
+    style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
-5.  You should have received a proactive notification on your mobile
-    phone notifying you the purchase of a Core Trio Qi charger!
+7.  Follow the prompts to test the following.
+    - change the delivery date.
+    - Update delivery location.
 
+    Observe the confirmation notifications received for each of these tests.
+
+8.  Open a web browser and login to <http://crm.cxocoe.us> with the
+    provided credentials.
+
+9.  Click on “Update CRM Data”
+
+    <img src="../assets/L2newImages/media/image107.png"
+    style="width:100%; max-width:800px; height:auto;"
+    alt="A screenshot of a computer AI-generated content may be incorrect." />
+
+    In the field to update dropdown, select "Delivery Status" and in the new value box, enter "shipped”. Then click “Update Record” button.
+
+9.  Let us retest by following step #5
+
+    <img src="../assets/L2newImages/media/image99.png"
+    style="width:100%; max-width:800px; height:auto;"
+    alt="A screenshot of a webpage AI-generated content may be incorrect." />
+
+    - Phone Number: *Enter your mobile number with country code. Ex: -
+    14081111111*
+
+    - Webhook Id: *Enter the copied text from step \#3*
+
+    Then click on “Start Flow” to trigger the proactive journey.
+
+10. You will receive an order status notification on your mobile device. 
+    Respond to the message in your own words to initiate the order cancellation.
+  
+
+11. You should receive a notification prompting you to contact the **customer
+    support hotline** to proceed with the cancellation. Since we marked your order as
+    "shipped" a few steps ago, the request to cancellation is denied by the AI Agent and
+    the call is transferred to human agent to assist the customer and hopefully prevent
+    the customer from cancelling the order. 
+
+
+    The following screenshots show examples of the notifications you may receive during the
+    "change in delivery date" and "order cancellation" tests.
     <img src="../assets/L2newImages/media/image104.png"
     style="width:1.67222in;height:3.83636in"
     alt="A screenshot of a phone AI-generated content may be incorrect." /><img src="../assets/L2newImages/media/image105.png"
-    style="width:1.66319in;height:3.83356in"
+    style="width:1.67222in;height:3.83636in"
     alt="A screenshot of a phone AI-generated content may be incorrect." /><img src="../assets/L2newImages/media/image106.png"
-    style="width:1.96319in;height:3.83466in"
+    style="width:1.67222in;height:3.83636in"
     alt="A screenshot of a phone AI-generated content may be incorrect." />
 
-6.  The above test is with delivery status set to “shipped”. Optionally,
-    the test can be repeated for delivery status set to “Not Shipped”.
+12. Order cancellation with the delivery status set to "shipped" 
+    is the final step before moving on to Lab 3. 
 
-    Open web browser and login to <http://crm.cxocoe.us> with the
-    provided credentials.
-
-    **Note**: In case you do the testing with setting the delivery Status to
-        “Not Shipped”, please repeat the test again with delivery status set
-        to “shipped” and going through the order cancellation as the last
-        step because this will be the lead into the Lab 3 testing.
-
-7.  Click on “Update CRM Data”
-
-    <img src="../assets/L2newImages/media/image107.png"
-    style="width:6.26806in;height:3.82569in"
-    alt="A screenshot of a computer AI-generated content may be incorrect." />
-
-    The field to update is Delivery Status and the value is “Not
-    shipped”. Then click “Update Record”.
-
-8.  Now let us test again by repeating Step \#3
-
-    <img src="../assets/L2newImages/media/image99.png"
-    style="width:6.26806in;height:5.13819in"
-    alt="A screenshot of a webpage AI-generated content may be incorrect." />
-
-9.  Verify the messages that you received on your mobile phone
 
 ## Comparison of Structured flow vs AI Agent
 
