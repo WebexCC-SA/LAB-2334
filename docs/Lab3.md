@@ -241,7 +241,7 @@ The AI Assistant currently provides the following features:
     style="width:100%; max-width:800px; height:auto;"
     alt="A screenshot of a computer AI-generated content may be incorrect." />
 
-## Goal 1 – WxCC Flow Configuration.
+## Goal 2 – WxCC Flow Configuration.
 
 In this section we will look at Webex Contact Center flow. We are not
 going to build the flow from start to finish, instead we will just copy
@@ -467,7 +467,7 @@ that we created in Lab 2.
 
   We are now ready to begin our testing of Lab 3.
 
-## Testing.
+## Goal 3 - Testing.
 
 ### Background
 
