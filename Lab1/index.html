@@ -1,0 +1,1772 @@
+<!DOCTYPE html><html lang="en" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Driving digital to human engagement">
+      
+      
+        <meta name="author" content="Preetham Kademada, Rue Green">
+      
+      
+      
+        <link rel="prev" href="../GettingStarted/">
+      
+      
+        <link rel="next" href="../Lab2/">
+      
+      
+      <link rel="icon" href="../template_assets/webex75.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.20">
+    
+    
+      
+        <title>Lab 1 - Proactive Journeys - LAB-2334: Driving digital to human engagement</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.e53b48f4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#lab-1-proactive-journeys" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="LAB-2334: Driving digital to human engagement" class="md-header__button md-logo" aria-label="LAB-2334: Driving digital to human engagement" data-md-component="logo">
+      
+  <img src="../template_assets/webexLogo91.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            LAB-2334: Driving digital to human engagement
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Lab 1 - Proactive Journeys
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo" aria-label="Switch to dark mode" type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="indigo" aria-label="Switch to light mode" type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../GettingStarted/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Labs
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="LAB-2334: Driving digital to human engagement" class="md-nav__button md-logo" aria-label="LAB-2334: Driving digital to human engagement" data-md-component="logo">
+      
+  <img src="../template_assets/webexLogo91.png" alt="logo">
+
+    </a>
+    LAB-2334: Driving digital to human engagement
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Labs
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Labs
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../GettingStarted/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Lab 1 - Proactive Journeys
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lab 1 - Proactive Journeys
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#about-this-lab" class="md-nav__link">
+    <span class="md-ellipsis">
+      About this lab
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lab-objective" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lab Objective
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#background" class="md-nav__link">
+    <span class="md-ellipsis">
+      Background
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#best-practices-to-consider" class="md-nav__link">
+    <span class="md-ellipsis">
+      Best Practices to consider
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cisco-store-use-case" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cisco Store Use-Case
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#goal-1-crm-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Goal 1: - CRM Setup
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#goal-2-get-started-with-the-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      Goal 2: - Get Started with the flow
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#goal-3-configuring-the-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      Goal 3 – Configuring the flow
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#goal-4-testing-the-proactive-journey" class="md-nav__link">
+    <span class="md-ellipsis">
+      Goal 4 – Testing the Proactive Journey
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#goal-5-the-open-door-policy-optional-goal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Goal 5 – The Open Door Policy (OPTIONAL GOAL)
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lab 2 - AI Agents
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lab 3 - Human Agent
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kb/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Knowledge Base
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="lab-1-proactive-journeys">LAB 1: - Proactive Journeys</h1>
+<h2 id="about-this-lab">About this lab</h2>
+<p>At Cisco, our customer experience (CX) strategy is centered around
+achieving the specific outcomes our customers value the most. The CX
+Business Unit has crafted a strategy that showcases Cisco’s unique
+capability to meet these outcomes through three primary pillars:
+Proactive Journeys, AI Agents, and Human Agents. Understanding how each
+pillar supports our overarching CX strategy is critical for delivering
+our solutions with confidence, credibility, and a consultative approach.</p>
+<p>Our goal is to equip you with comprehensive expertise in this growth
+sector for Cisco and the market at large. While we will explore each
+pillar separately in the corresponding Labs, the bootcamp is designed to
+build a strong foundation that applies broadly across various
+technologies and solutions, reinforcing Cisco’s position as a
+differentiated partner for businesses seeking to enhance their customer
+experience.</p>
+<p>In this lab, the focus is on the first pillar: Proactive Journeys. This
+session will cover a broader spectrum of technical features and concepts
+essential for developing effective proactive strategies. These
+strategies can significantly enhance efficiency and helps to reduce the
+cost to serve for the business significantly.</p>
+<p>Our three key CX software workloads work together to reimagine customer
+experience:</p>
+<ul>
+<li>
+<p>Proactive Journeys – Anticipate customer needs and proactively address
+    issues before they arise.</p>
+</li>
+<li>
+<p>AI Agents – Automate and resolve common queries efficiently, reducing
+    wait times and improving satisfaction.</p>
+</li>
+<li>
+<p>Human Agents – Equip human agents, supervisors, and analysts
+    with AI-driven insights and assistance, enhancing empathy and service
+    quality.</p>
+</li>
+</ul>
+<h2 id="lab-objective">Lab Objective</h2>
+<p>This lab introduces you to the following concepts: -</p>
+<ol>
+<li>
+<p>Design and build Webex Connect workflows that satisfy for the
+    following journey requirements:</p>
+<ul>
+<li>
+<p>System triggered flows</p>
+</li>
+<li>
+<p>User initiated flows</p>
+</li>
+<li>
+<p>One-way transactional flows</p>
+</li>
+<li>
+<p>Two-way automated flows</p>
+</li>
+<li>
+<p>Channel fallback logic</p>
+</li>
+<li>
+<p>Consent management</p>
+</li>
+<li>
+<p>Social hours</p>
+</li>
+<li>
+<p>Custom variables</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Leverage messaging templates to streamline business user priorities
+    without risking the technical components of a journey.</p>
+</li>
+<li>
+<p>Leverage flow-driven REST API’s to personalize the customer
+    experience as well as push and pull key response and tracking data
+    to augment the value of and maintain client-side systems.</p>
+</li>
+<li>
+<p>Leverage Journey Data Services to support a contextualized history
+    of interactions and touchpoints with any given end-user.</p>
+</li>
+</ol>
+<h2 id="background">Background</h2>
+<p>The proactive journey pillar of our CX portfolio is powered by WxConnect
+and it’s powerful low code no code flow builder and its relationship
+with external integrations, one-way and two-way SMS scenarios, internal
+CX-focused cross architecture such as JDS, and the flow builder’s
+out-of-the-box functions that allow platform users to perform otherwise
+complex development tasks in a configuration-based approach. These
+features combined offer brands an enormous advantage to rapidly develop,
+execute, and iterate on CX communications journeys – whether they’re
+proactive in nature, end-user initiated, or self-service oriented (also
+referred to as structured two-way engagements).</p>
+<p>Lab 1 focuses on creating a structured flow that is a streamlined,
+systematic method to automate communications. It involves:</p>
+<ul>
+<li>
+<p>Clear Objectives: Defined goals for each communication campaign.</p>
+</li>
+<li>
+<p>Sequential Steps: Ordered actions based on customer or system
+  interactions.</p>
+</li>
+<li>
+<p>Decision Points: Branching paths depending on customer or system
+  responses.</p>
+</li>
+<li>
+<p>Standardization: Reusable templates for consistent messaging.</p>
+</li>
+<li>
+<p>Documentation: Visual tools to map out and manage flows (ie., the flow
+  builder canvas).</p>
+</li>
+<li>
+<p>Control Mechanisms: Analytics to monitor and optimize performance.</p>
+</li>
+</ul>
+<p>The structured flows offer a more guided experience for the customer.</p>
+<p>When this lab is completed, we will have built our first workflow, that
+handles a two-way structured self-help delivery use-case for the Cisco
+Store. The persona chosen for this lab is an existing customer and the
+use-case represented is an online purchase of a Core Trio QI Charger
+(shown in the picture below) for delivery to an address already on file
+with the store’s source system that is referred to as CRM in this lab
+guide.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image1.png" data-title="A white device with a round button AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image1.png" style="width:100%; max-width:800px; height:auto;" alt="A white device with a round button AI-generated content may be incorrect."></a></p>
+<p>The lab will follow these steps in chronological order: -</p>
+<ol>
+<li>
+<p>Let us assume that you are the customer that just purchased the
+    above charger from Cisco Store. The system will trigger a
+    notification which will trigger a workflow responsible for
+    proactively notifying the customer, that their purchase was
+    successful and is being processed, and it indicates the details
+    surrounding the order in a highly personalized manner.</p>
+</li>
+<li>
+<p>Then the workflow will build on the previous step and inform the
+    customer about the processed order and informs that the order is
+    about to be shipped, offering the customer the ability to either
+    confirm their delivery details are correct or tweak the delivery
+    experience.</p>
+<ul>
+<li>
+<p>Throughout this workflow, you will be asked to request data from
+    source system (CRM) to personalize the messaging and associated
+    logic steps involved. You will also be asked to update the CRM
+    based on the selections made by your end-user.</p>
+</li>
+<li>
+<p>Throughout this workflow, key milestones in the customer’s
+    journey are logged to capture contextual bread crumb trail so
+    that the customer’s interactions with respect to this journey
+    can be harnessed for improved awareness on the brand-side that
+    will benefit both the brand’s operational efficiency and the
+    customer’s overall experience.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>The last workflow will be a SMS triggered workflow to allow the
+    customer’s to initiate contact with the brand in a self-help
+    capacity at any given time to check on their order status.</p>
+</li>
+</ol>
+<p><strong>Due to the time constraints, we will not build the entire flow from
+scratch, instead we will copy a pre-built flow and modify the variables
+to match the Pod assigned to you.</strong> </p>
+<h2 id="best-practices-to-consider">Best Practices to consider</h2>
+<p>When designing workflows, there are typically a few considerations that
+are rules of thumb. Outside of these, it is up to the brand to structure
+the flow to get a customer from point A to B.</p>
+<ul>
+<li>
+<p>The flows should minimize system overhead; this will reduce points of
+  failure and time to complete the transaction.</p>
+</li>
+<li>
+<p>Example: - In proactive journeys, ensuring we have customer’s
+    consent to message them is not only important – it is the law! To
+    ensure we’re able to respect this business condition, Webex Connect
+    has a built-in <a href="https://help.webexconnect.io/docs/contact-policy">Contact
+    Policy</a> module.
+    This is completely redundant if the customer already has a source of
+    truth such as a CRM that they prefer to use instead. That said, the
+    Contact Policy is a valuable ‘last line of defense’ option if the
+    customer doesn’t trust their data or would simply prefer to use our
+    ‘out of the box’ feature.</p>
+</li>
+<li>
+<p>Reporting and metrics are important to consider up front – make sure
+  that whatever you’re building, and its corresponding flow-design, is
+  architected in a manner that allows you to accurately and efficiently
+  collect whatever key data points are valuable towards the use-case and
+  the measurement of the solution.</p>
+</li>
+<li>
+<p>NOTE: For the purposes of this lab, we will be leveraging Journey
+    Data Service as our repository for key insights regarding the
+    customer’s progression.</p>
+</li>
+<li>
+<p>A single flow does not need to incorporate every single decision
+  branch, API call, or interaction with an end user. Flows can trigger
+  other flows at any step, meaning you can break up your use-case into
+  more manageable pieces or even incorporate “Catch All” flows that
+  triage any inbound message or keyword and funnels it down to the
+  appropriate corresponding sub flow(s).</p>
+</li>
+<li>
+<p>Consider cost – By leveraging proactive journey’s, brands can serve
+  their customers with the lowest cost per interaction compared to
+  talking to a human agent.--&gt;</p>
+</li>
+</ul>
+<h2 id="cisco-store-use-case">Cisco Store Use-Case</h2>
+<p>First, let us understand the use-case or customer journey that is part
+of the workflow.</p>
+<ol>
+<li>
+<p>The first leg of the use case is triggered when the customer
+    completes the purchase of the Core Trio Qi charger.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image2.png" data-title="A diagram of a server AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image2.png" style="width:100%; max-width:800px; height:auto;" alt="A diagram of a server AI-generated content may be incorrect."></a></p>
+<ul>
+<li>
+<p>The business is going to send a transactional notification indicating
+    their purchase is confirmed and being processed for shipment.</p>
+</li>
+<li>
+<p>As soon as the customer completes the purchase, the CRM is updated
+    with the customer information, and it triggers a notification request
+    to be sent to the customer confirming the purchase.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>The second leg of the use case is triggered when the customer order
+    is shipped.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image3.png" data-title="A diagram of a diagram AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image3.png" style="width:100%; max-width:800px; height:auto;" alt="A diagram of a diagram AI-generated content may be incorrect."></a></p>
+<ul>
+<li>The notification is triggered when the order is shipped with the
+    delivery date and the address. This notification includes the option
+    to manage the order that includes changing the delivery date and safe
+    zone designation to deliver the package.</li>
+</ul>
+</li>
+</ol>
+<h2 id="goal-1-crm-setup">Goal 1: - CRM Setup</h2>
+<ol>
+<li>
+<p>To begin the lab, scan the QR code that is provided to you by the
+    proctor</p>
+</li>
+<li>
+<p>After you have answered the questions, you will receive the “POD”
+    assignments with all the credentials that is required for this lab.</p>
+</li>
+<li>
+<p>Open a web browser and navigate to <a href="http://crm.cxocoe.us">http://crm.cxocoe.us</a> and login
+    with the “CRM Login and Password” that was provided to you in step
+    #2</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image4.png" data-title="A screenshot of a login screen AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image4.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a login screen AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>The first step is to create the customer record in the CRM. For this
+    session, we are going to use a “API” end point as our CRM. To add
+    your customer record, open a web browser and go to
+    <a href="http://crm.cxocoe.us">http://crm.cxocoe.us</a>. The webpage displayed is as shown below.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image5.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image5.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Click on “Post CRM Data” at the top navigation bar or click on “Go”
+    button displayed within Post CRM Data contact card.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image6.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image6.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Add the data to the following fields: -</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image7.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image7.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<ul>
+<li>
+<p>First Name: - <strong>Enter your First name or a fake first name</strong> </p>
+</li>
+<li>
+<p>Last Name: -  <strong>Enter your Last name or a fake last name</strong></p>
+</li>
+<li>
+<p>Phone Number: - <strong>Enter your mobile number including the country code (For ex:- if you are in US and your phone number is +14088881111, please enter 14088881111), this should be a number that can receive SMS messages</strong></p>
+</li>
+<li>
+<p>SMS Consent: - <strong>Yes (for this lab, we will pretend to have obtained customer consent)</strong></p>
+</li>
+<li>
+<p>Order ID: - <strong>This will be automatically set to your phone number</strong></p>
+</li>
+<li>
+<p>Product Name: - <strong>Core Trio QI Charger</strong></p>
+</li>
+<li>
+<p>Delivery Address: - <strong>Any fake address</strong></p>
+</li>
+<li>
+<p>Delivery ETA: - <strong>any date in future</strong></p>
+</li>
+<li>
+<p>Delivery Status: - <strong>for the first part of the lab, set this to “Not Shipped”</strong></p>
+</li>
+<li>
+<p>Safe Location: - <strong>Set to either “Front Door”, “Back Door” or “Garage”</strong></p>
+</li>
+<li>
+<p>Time Zone: - <strong>America/Chicago</strong></p>
+</li>
+<li>
+<p>Alternate Date 1: - <strong>Set it to any date after DeliveryETA date</strong></p>
+</li>
+<li>
+<p>Alternate Date 2: - <strong>Set it to any date after DeliveryETA date that is different than Alternate Date 1</strong></p>
+</li>
+</ul>
+</li>
+<li>
+<p>After entering the data, click “submit order data” button to create
+    the CRM record.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image8.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image8.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image9.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image9.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>If the data entry is successful, http response will show the status
+    code “200 ok” as shown below.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image10.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image10.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>To view the data, click on “Get CRM Data” in the top menu</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image11.png" data-title="A screen shot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image11.png" style="width:100%; max-width:800px; height:auto;" alt="A screen shot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>In the “Get CRM data” screen, enter the phone number that was used
+    to create the record in step #3 and click on “Get Data” button.
+    Observe the result (If the operation status pop up window is showing "Retrieving 
+    data",click "close", to close the pop up window) and verify the data that was entered. 
+    We will use this data as our CRM record for all parts of our lab.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image12.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image12.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>In case you need to make any changes to the CRM data or record,
+    click on “Update CRM Data” in the top menu.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image13.png" data-title="A screen shot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image13.png" style="width:100%; max-width:800px; height:auto;" alt="A screen shot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>To update any field, enter the phone number for the order Id. Click
+    the drop down “Field to Update” to select field that needs to be
+    updated and enter the updated information in the “New Value”. For
+    Ex: - In the below image, we are going to update the “Alternate Date
+    1” from 4/01/2025 to 4/21/2025. In case, there is a need to update
+    multiple fields, you can update one field at a time.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image14.png" data-title="A screenshot of a update record AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image14.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a update record AI-generated content may be incorrect."></a></p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image15.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image15.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Now try step #10 – Get CRM data and validate the changes are
+    updated.</p>
+</li>
+</ol>
+<h2 id="goal-2-get-started-with-the-flow">Goal 2: - Get Started with the flow</h2>
+<p>Due to time constraints, for this goal you are going to copy an existing
+flow and modify it. Lab 2 will be focused on you building it so please
+don’t worry about not getting to put together the building blocks for
+the customer journey in this lab.</p>
+<p>By now, you should have the “POD” assignments and the credentials for
+the pod. We are going to use the admin account for this part of the lab.
+The admin account is of the format admin\&lt;pod#&gt;@ciscolivelab.wbx.ai,
+where pod# is the pod number assigned to you. Ex: - Pod 22, the admin
+account will be <a href="mailto:admin22@ciscolivelab.wbx.ai">admin22@ciscolivelab.wbx.ai</a></p>
+<p>Let us get started!</p>
+<ol>
+<li>
+<p>Open a web browser and go to <a href="https://admin.webex.com">https://admin.webex.com</a> and login
+    with the assigned admin credentials for your pod.</p>
+</li>
+<li>
+<p>On successful login, you should be on the Contact Center Overview
+    landing page as shown below.</p>
+<p><strong>Note:</strong> There will be an error message on the bottom right which can be
+    ignored. It is an error message to let us know that the user was not
+    added to few groups and can be ignored.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image16.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image16.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Click on “Webex Connect” under quick links. It will cross launch a
+    new tab and display “Services”. </p>
+<p><strong>Note:</strong> There will be an error message on the bottom right which can be
+    ignored. It is an error message to let us know that the user was not
+    added to few groups and can be ignored. </p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image17.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image17.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Click on “Search Services” and type in Pod \&lt;your pod number&gt; and
+    press “Enter”. In my example below, my Pod # is 60</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image18.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image18.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Click on Pod 60 and you will see the “Dashboard” as shown below.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image19.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image19.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Click on “Flows”.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image20.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image20.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>There should be a starter flow called “Lab1 Starter Flow”. We will
+    create a flow by copying the starter flow. Click on “Create Flow”.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image21.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image21.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>The next screen presented is to “Create Flow”.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image22.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image22.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Add the following details: -</p>
+<ul>
+<li>
+<p>Flow Name: - <em>Enter the name with Pod# Lab1 Proactive Journey. In my
+example below, the pod assigned is 60 and my flow name is “Pod60 Lab1
+Proactive Journey”.</em></p>
+</li>
+<li>
+<p>Method: <em>click the drop-down selection and select “Copy from existing
+flow”.</em></p>
+</li>
+<li>
+<p>Select Flow: <em>click the drop-down selection and select “Lab1 Starter
+Flow”.</em></p>
+</li>
+<li>
+<p>Click “Create”.</p>
+</li>
+</ul>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image23.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image23.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>The proactive journey gets triggered when the CRM triggers the
+    notification to a webhook. The next screen presented is to
+    “Configure Webhook”.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image24.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image24.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Under “Configure webhook settings to trigger this flow”, select
+    “Create new event” and add the following details.</p>
+<ul>
+<li>
+<p>Name: <em>Pod# Lab1 Trigger. In the below example, the pod assigned is 60
+and the name is set to “Pod60 Lab1 Trigger”.</em></p>
+</li>
+<li>
+<p>Example Data: Copy and paste the following JSON code.</p>
+</li>
+<li>
+<p>Note: - JSON is case sensitive so please make sure to pay attention to
+the JSON and maintain the same format.</p>
+</li>
+</ul>
+<div class="highlight"><pre><span></span><code>{
+"orderId" : ""
+}
+</code></pre></div>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image25.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image25.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Click on Parse button. This will create “orderId” as a variable that
+    can be used throughout the flow.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image26.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image26.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<blockquote>
+<p>After the “Parse” button is clicked, observe the variable created
+under the “Parsed Variables(0)”. This method can be used to pass any
+number of custom variables from CRM or external data sources when
+triggering a flow. The variables created can also be accessed by
+clicking on “Output Variables”.</p>
+</blockquote>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image27.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image27.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image28.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image28.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>We will rename the “Configure Webhook” to “Trigger Proactive
+    Journey” by clicking on the pencil icon as shown below. Enter the
+    name and click the check mark to save the edits.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image29.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image29.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image30.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image30.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Click “Save” to save the node configuration.</p>
+</li>
+<li>
+<p>Click “Save” at the top menu to save the flow. When the flow is
+    saved, the “Errors &amp; Warnings” message will pop up and we will work
+    towards fixing the errors in the upcoming steps, but we will ignore
+    the warnings. It is strongly recommended that warnings are addressed
+    in a production environment for optimal experience.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image31.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image31.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image32.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image32.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+</ol>
+<h2 id="goal-3-configuring-the-flow">Goal 3 – Configuring the flow</h2>
+<p>Orient yourself with the canvas/UI in Webex Connect and some key
+tools/functions (if you find yourself struggling, try our documentation
+page too @ help.webexconnect.io):</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image33.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image33.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<ol>
+<li>
+<p>The first step is to identify the “SMS” nodes and modify them. The
+    SMS node enables the brand to send outbound SMS message to their
+    customers. The SMS node is indicated in the flow as below</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image34.png" data-title="A blue square with text in it AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image34.png" style="width:1.48611in;height:1.27778in" alt="A blue square with text in it AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>The flow consists of 10 SMS nodes and each of the SMS node must be
+    modified to include the SMS number. The power of WxConnect is its
+    ability to create dynamic variables that makes the flow reusable. We
+    will leverage a dynamic variable that stores the SMS number and
+    assign this variable to the SMS nodes.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image35.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image35.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Open SMS node #1 as shown in step #2 by double clicking on the SMS
+    node to open the configuration settings of this node.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image36.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image36.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Observe the image from the above step and note that “From Number” is
+    blank. This is one of the errors reported when you save the flow. As
+    mentioned earlier in the guide, we will be using a variable called
+    “yourAssignedSMSNumber” to dynamically store the number. This
+    variable is already created for you. To add this variable, click on
+    “From Number” to select the field and then expand the “Custom
+    Variables” on the right of the node as shown below and then click on
+    “yourAssignedSMSNumber” variable to add it to the “From Number”
+    field. Click save to save the node config.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image37.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image37.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image38.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image38.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Repeat the above steps for all the other 9 SMS nodes.</p>
+</li>
+<li>
+<p>Click save on the top right after completing step #5.</p>
+</li>
+<li>
+<p>Let us now open the configuration of SMS node #3 to understand the
+    “Template” concept.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image39.png" data-title="A diagram of a network AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image39.png" style="width:100%; max-width:800px; height:auto;" alt="A diagram of a network AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>In this node configuration, observe that we are not configuring the
+    SMS message to be sent directly in the node, instead we are
+    utilizing messaging templates.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image40.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image40.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p>Typically, you can proceed in one of two ways – you can simply
+populate the message in the body of the SMS node, or you can
+leverage templates. For the purposes of this lab, we’ll be going
+down the template path so that you not only understand how they work
+but also because it is often the case that customers don’t use the
+same teams to devise messaging content and technical integrations /
+wiring up of a solution. Thus, templates allow business users or
+marketeers to still control and own a piece of the build process
+(that they can iterate on later) without impacting IT and creating
+backlog for simple copy changes.</p>
+</li>
+<li>
+<p>To check out the templates, please save your work and navigate out
+    of the flow canvas by clicking the carrot (or chevron, if you
+    prefer) that navigates you back into your service – top left of the
+    page:</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image41.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image41.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p>Then click on the wrench in the menu panel to the left and select
+‘Templates’.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image42.png" data-title="A screen shot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image42.png" style="width:100%; max-width:800px; height:auto;" alt="A screen shot of a computer AI-generated content may be incorrect."></a></p>
+<p>Click on any pre-configured template to view the template
+configuration.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image43.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image43.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image44.png" data-title="A screenshot of a chat box AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image44.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a chat box AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Now that we have seen the templates and the purpose of templates,
+    let us get back to modifying the flow by clicking on the tile window
+    on the left.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image45.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image45.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p>Search the Pod and click on the Pod # that is assigned to you.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image18.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image18.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image20.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image20.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p>There will be two flows in your service, click on the flow “Pod#
+Lab1 Proactive Journey”.</p>
+</li>
+<li>
+<p>As next step we must modify the “receive” nodes in the flow to add
+    the sms numbers. Open each receieve node explicitly and click save, to save
+    the configuration.Receive nodes facilitate the brands to receive message or message replies 
+    from their customers. Receive nodes in the flow can be identified by the below image.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image46.png" data-title="A blue and green square with arrows and a blue rectangle with a blue arrow AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image46.png" style="width:1.26389in;height:1.55556in" alt="A blue and green square with arrows and a blue rectangle with a blue arrow AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>There are 5 receive nodes in the flow as identified below.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image47.png" data-title="A diagram of a network AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image47.png" style="width:100%; max-width:800px; height:auto;" alt="A diagram of a network AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Open “Receive” node #1 identified in step #12 by double clicking
+    on the node to verify the configuration and click save.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image48.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image48.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Open all other “Receive” nodes to make sure the variable is set for
+    the “Number” field and click save on each node.</p>
+</li>
+<li>
+<p>If any of the “receive” node is not populated with the variable as
+    shown below</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image49.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image49.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p>Click on the Number field and select “—Dynamic--” as shown below.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image50.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image50.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p>Now expand the “Custom variables” located on the right hand side of
+the node and select “yourAssignedSMSNumber” as shown below.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image51.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image51.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p>Now click on Keyword and select “*”. The “*“ keyword allows to
+accept any message. Click “save” to save the configuration.</p>
+</li>
+<li>
+<p>Click “Save” on the top right corner to save the entire flow and
+    observe the errors and warnings. There should be no errors reported,
+    however there will be warnings that we will ignore for this lab.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image52.png" data-title="A computer screen shot of a diagram AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image52.png" style="width:100%; max-width:800px; height:auto;" alt="A computer screen shot of a diagram AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>We are all set to put the flow into production. Click on “Make
+    Live”.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image53.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image53.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Make live configuration is presented, where we will assign the
+    actual SMS number to the dynamic variable. Click on “Numbers” and
+    select the SMS number that you received in the text by scanning the
+    QR code along with your credentials. In the example below, the
+    assigned SMS number to Pod60 is 14087862126.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image54.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image54.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p>Click on “Numbers” field and select the number that was assigned to
+your pod.</p>
+<p>Note: - Please check the box against your assigned number only.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image55.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image55.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image56.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image56.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p>Type your number in the format 1+\&lt;phonenumber&gt; as shown in the
+image below</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image57.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image57.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Click “Make Live” to put the flow in production. Please note, the
+    flow will take approximately 1 to 2 mins to be live. The status
+    initially will show “Publishing” and will change to “Live” to
+    indicate it is live and in production.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image58.png" data-title="A screen shot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image58.png" style="width:100%; max-width:800px; height:auto;" alt="A screen shot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+</ol>
+<h2 id="goal-4-testing-the-proactive-journey">Goal 4 – Testing the Proactive Journey</h2>
+<p>It is now time to test the flow that we put in production. As mentioned
+previously in the lab guide, the flow that we built is triggered by
+certain notifications from the CRM or system of record updates. We will
+simulate this by creating this notification and keep your mobile phones
+ready, let us begin testing.</p>
+<ol>
+<li>
+<p>Open the flow that we put into production and double click on the
+    first node “Trigger Proactive Journey”.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image59.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image59.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p>In the configuration window, locate the field named “Webhook URL”
+and the url is of the format
+<a href="https://hooks.us.webexconnect.io/events/XXXXXXXXX">https://hooks.us.webexconnect.io/events/XXXXXXXXX</a>. Copy the last
+part of the URL “XXXXXXXXXX” to test.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image60.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image60.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Open a web browser and login to <a href="http://crm.cxocoe.us">http://crm.cxocoe.us</a> with the
+    credentials provided.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image61.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image61.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Click on “Kick off Proactive Flow”.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image62.png" data-title="A screenshot of a webpage AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image62.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a webpage AI-generated content may be incorrect."></a></p>
+<ul>
+<li>
+<p>Phone Number: <em>Enter your mobile number with country code. Ex: -
+14081111111</em></p>
+</li>
+<li>
+<p>Webhook Id: <em>Enter the copied text from step #1</em></p>
+</li>
+</ul>
+<p>Then click on “Start Flow” to trigger the proactive journey.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image63.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image63.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>The flows provide debug capability to identify any issues with the
+    configuration. The debug can be accessed by clicking on bug icon
+    that is located on the right of the flow.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image64.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image64.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p>The debug window contains list of transaction id’s that the flow has
+executed. Click on the appropriate transaction id to debug.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image65.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image65.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p>The debug output is encrypted by default. Click “Decrypt Logs” to
+view the logs in plain text.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image66.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image66.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>You should have received a proactive notification on your mobile
+    phone notifying you the purchase of a Core Trio Qi charger!</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image67.png" data-title="A screenshot of a phone AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image67.png" style="width:3.15455in;height:6.98125in" alt="A screenshot of a phone AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Let us now create the shipped notification. Open web browser and
+    login to <a href="http://crm.cxocoe.us">http://crm.cxocoe.us</a> with the provided credentials.</p>
+</li>
+<li>
+<p>Click on “Update CRM Data”</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image68.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image68.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p>The field to update is Delivery Status and the value is “shipped”.
+Then click “Update Record”.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image69.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image69.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Now let us test again by repeating Step #3</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image62.png" data-title="A screenshot of a webpage AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image62.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a webpage AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Verify the messages that you received on your mobile phone</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image70.png" data-title="A phone with a message AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image70.png" style="width:75%; max-width:800px; height:auto;" alt="A phone with a message AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>The test can be repeated for changing the date if desired.</p>
+</li>
+</ol>
+<h2 id="goal-5-the-open-door-policy-optional-goal">Goal 5 – The Open Door Policy (OPTIONAL GOAL)</h2>
+<ul>
+<li>
+<p>Although this lab focuses on 'proactive' engagement – where the brand
+  uses its insights to initiate contact at, or even before, a customer's
+  moment of need – it's also crucial that customers can respond to these
+  communications. Just as you might reply to a personal update with
+  questions, customers should be able to engage in a dialogue with the
+  brand following any initiated contact.</p>
+</li>
+<li>
+<p>When a brand sends a notification, you should have the capability to
+  respond to it, asking any questions that fall within the scope of your
+  relationship with the brand, regardless of the notification's original
+  intent.</p>
+</li>
+<li>
+<p>Although there are different ways for solving this; structured flows
+  vs scripted AI vs autonomous AI vs directing the query to a human on
+  the brand-side, Cisco maintains a strong advantage in its ability to
+  facilitate this ‘open door policy’ for any of our customers.</p>
+</li>
+<li>
+<p>Our final objective within this lab is precisely this, albeit through
+  the lens of structure flows.</p>
+</li>
+<li>
+<p>As you will have likely noticed, in the final confirmation message we
+  defined for the end-user, there was a call to action where we stated,
+  “<em>If at any time you would like to check on your order status, you can
+  text STATUS to this number.</em>” This now means that we need a way of
+  capturing that keyword and acting on it.</p>
+<ul>
+<li>NOTE: Keywords are not the only way of capturing user-initiated
+    contact. We could instead go the route of a CatchAll flow that is
+    literally open to any input from anyone and then filters input
+    accordingly and funnels them down appropriate paths based on the
+    governing business rules at play. We’re taking the keyword approach
+    here to honor the ‘structured’ experience but please note this is
+    not the only way, nor is it necessarily the recommended way
+    depending on the use-case or breadth of technology at play within
+    the solution.</li>
+</ul>
+</li>
+<li>
+<p>This one is relatively simple – here is what it should look like when
+  you’re done:</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image71.png" data-title="A diagram of a computer process AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image71.png" style="width:100%; max-width:800px; height:auto;" alt="A diagram of a computer process AI-generated content may be incorrect."></a></p>
+</li>
+</ul>
+<p>Let us build this simple flow:</p>
+<ol>
+<li>
+<p>From the dashboard of your service, click on “Create Flow”.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image72.png" data-title="A screenshot of a chat AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image72.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a chat AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>In the “Create Flow” shown below, add the details.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image73.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image73.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<ul>
+<li>
+<p>Flow Name: <em>Pod# Reactive Status Catch All</em></p>
+</li>
+<li>
+<p>Method: <em>New Flow</em></p>
+</li>
+<li>
+<p>Click “Create”.</p>
+</li>
+</ul>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image74.png" data-title="A screenshot of a chat AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image74.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a chat AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>In “Select Trigger Category”, select “SMS” as the channel.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image75.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image75.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Once you’ve selected SMS, the “Configure SMS Event” window appears.
+    Here you can define the keyword and/or conditions for the inbound
+    message (known in industry terms as an MO – mobile Originated
+    message).</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image76.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image76.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Select your assigned SMS number from the “INCOMING NUMBER”.</p>
+<ul>
+<li>
+<p>Select * as the KEYWORD and then click to “VERIFY”. The verify button
+checks if there are other flows that utilize the same keyword and if
+it does, there will be an error displayed. You’ll see that instead of
+an actual keyword value in the ‘keyword’ field, we’ve placed an
+asterisk * which indicates to the corresponding flow and session that
+anything on the SMS channel addressed to the respective SMS number
+should be captured by this flow. Effectively, a ‘CatchAll’ at this
+point, however, as indicated in the screenshot to follow, we’ve put
+some boundaries up around this – indicating that the governing logic
+for the flow should only allow it to trigger on behalf of an entry if
+those conditions are met <em>and</em> if there are no other live sessions
+(meaning that if an end-user is in a separate flow’s session that
+corresponds to the same number, and they enter valid conditional
+keywords defined here, such as ‘status’ or ‘order’, this flow will NOT
+execute).</p>
+</li>
+<li>
+<p>NOTE: The secondary conditions defined as ‘equalsignorecase’ are
+    important to further enforce the rules governing if/when this flow
+    gets triggered</p>
+</li>
+<li>
+<p>To add conditions, check conditions and this will bring up the
+    conditions box. Select “sms.message” under “Choose Field” and
+    “equalsignorecase” under “Choose Condition”. For input value, type
+    “status”.</p>
+</li>
+<li>
+<p>Click “OR” button to add “OR” operator. Then select “sms message”
+    and “equalsignorecase” as field and condition respectively. Type in
+    “order” for the value. This ensures that the inbound message to the
+    SMS number will trigger a flow if it matches either “status” or
+    “order” in the keyword.</p>
+</li>
+<li>
+<p>Click “Save”.</p>
+</li>
+</ul>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image77.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image77.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>When we receive an inbound message from the customer asking for
+    their order status, we need to look up the order information in the
+    CRM or in the system of record. In the node palette, displayed to
+    the left, click on integrations and find a node named “Custom CRM”.
+    This can also be searched for using the search button.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image78.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image78.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Drag the “Custom CRM” node to the flow canvas next to the SMS node.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image79.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image79.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>To wire the two nodes, click on the “green” dot of the SMS node and
+    drag it until it snaps on to the “Custom CRM” node.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image80.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image80.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image81.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image81.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Now double click on the “Custom CRM” node to add details.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image82.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image82.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Click on “Select Method Name” and select “Fetch CRM Data”. This should
+    enable the Phone Number field and to fill this, expand on “Start”
+    listed under “Input Variables” that can be found on the right side
+    of the panel as shown below.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image83.png" data-title="A screen shot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image83.png" style="width:100%; max-width:800px; height:auto;" alt="A screen shot of a computer AI-generated content may be incorrect."></a></p>
+<p>Click on “sms.senderNumber” variable found in the list.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image84.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image84.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p>Click “Save” to save the configuration.</p>
+</li>
+<li>
+<p>Next, you will simply add an SMS node to the flow and then select
+    the template called <a href="#FinalConfirmation">Final Confirmation</a> and
+    populate the corresponding variables with the relevant parameters
+    that is extracted via the Custom CRM node. From the node palette,
+    under channels, select “SMS” and drag it to the canvas next to the
+    “CRM” node. Now wire the CRM node to SMS node by clicking on the
+    green dot and snapping it to the SMS node.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image85.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image85.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image86.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image86.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image87.png" data-title="A diagram of a diagram of a customer service AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image87.png" style="width:100%; max-width:800px; height:auto;" alt="A diagram of a diagram of a customer service AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Click on the SMS node to configure.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image88.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image88.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image89.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image89.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p>Observe the Message body and this is the power of templates, which
+allows the substitution of variables. All the variables for this
+section is derived from “Custom CRM”. To add the variables, click on
+the value field under each variable and then expand the “Custom CRM”
+on the right panel to choose the appropriate variables as shown
+below.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image90.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image90.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image91.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image91.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p>Click “Save” to save the node configuration.</p>
+</li>
+<li>
+<p>Let us capture the customer journey in Journey Data Service (JDS).
+    JDS is a free form API that can be used across any system to capture
+    the moments that matter for the customer journey. Find the JDS node
+    from the node palette, under integrations, find JDS node and drag it
+    to the canvas. Wire the connection by connecting the green dot from
+    the previous SMS node to snap on to the JDS node.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image92.png" data-title="A screen shot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image92.png" style="width:100%; max-width:800px; height:auto;" alt="A screen shot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Double click the JDS node to configure it. Click on Method Name and select
+    “Create Events”. Fill the following details</p>
+<ul>
+<li>
+<p>Transaction Id: click on the field and select the variable
+  <strong>“sms.transId”</strong> from the start node on the right of the panel.</p>
+</li>
+<li>
+<p>What Type of Interaction: <strong>Order check</strong></p>
+</li>
+<li>
+<p>What is the Source of this Transaction: <strong>Website</strong></p>
+</li>
+<li>
+<p>Enter the Identity to Tag This Transaction: Click on the field and
+  select <strong>“Custom CRM”</strong> on the right panel and in the variables click
+  on <strong>orderId</strong>.</p>
+</li>
+<li>
+<p>What Identity Type is This? From the drop down, select <strong>temporaryId</strong></p>
+</li>
+<li>
+<p>Enter the Subtitle Information: Enter text <strong>Order status request</strong>.</p>
+</li>
+<li>
+<p>What Icon Type Do you want to use? Enter text <strong>email-happy</strong></p>
+</li>
+<li>
+<p>What is the title for this transaction: Enter text <strong>Order status
+  request</strong></p>
+</li>
+<li>
+<p>What is the Product Name? Click on the field and select <strong>“Custom
+  CRM”</strong> on the right panel and in the variables click on <strong>productName</strong>.</p>
+</li>
+<li>
+<p>What is the Website Information: Enter text
+  <strong>[cisco](<a href="http://www.cisco.com">www.cisco.com</a>)</strong></p>
+</li>
+<li>
+<p>What was the last Action: Enter Text <strong>Order status update request</strong>.</p>
+</li>
+<li>
+<p>What was the channel used for this transaction: Enter text <strong>SMS</strong>.</p>
+</li>
+<li>
+<p>What is the Order Id: Click on the field and select <strong>“Custom CRM”</strong>
+  on the right panel and in the variables click on <strong>orderId</strong>.</p>
+</li>
+<li>
+<p>What is the delivery status: Click on the field and select <strong>“Custom CRM”</strong> on the right panel and in the variables click on
+  <strong>deliveryStatus</strong>.</p>
+</li>
+</ul>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image93.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image93.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image94.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image94.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image95.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image95.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p>Click “Save” to save the node configuration.</p>
+</li>
+<li>
+<p>Click the green dot from the JDS node and drag to open canvas to
+    open the “End” configuration.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image96.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image96.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p>Click the drop down on “Node Event” and select “success” and select
+“101 – Successfully completed flow [Success] under “Flow Result”.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image97.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image97.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Click “Save” and Click “Make live” to put the flow into production.</p>
+</li>
+<li>
+<p>Now let us test the catch all flow. The last step from the previous
+    goal was to test and the message delivered looks like the below
+    example.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image98.png" data-title="A screenshot of a phone AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image98.png" style="width:50%; max-width:500px; height:auto;" alt="A screenshot of a phone AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>The last message suggests the customer to send a text “STATUS” to
+    that number.</p>
+</li>
+<li>
+<p>From your mobile phone reply to the above text with “STATUS”
+    message.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L1Images/media/image99.png" data-title="A screenshot of a phone AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L1Images/media/image99.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a phone AI-generated content may be incorrect."></a></p>
+<p>Congratulations! You have successfully completed Lab 1.</p>
+</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer">
+        
+          
+          <a href="../GettingStarted/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Overview">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Overview
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../Lab2/" class="md-footer__link md-footer__link--next" aria-label="Next: Lab 2 - AI Agents">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Lab 2 - AI Agents
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"></path></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright © 2025 Cisco
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.indexes", "navigation.instant", "navigation.top", "navigation.footer", "search.suggest", "content.code.copy", "toc.integrate"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+        <script src="../template_assets/js/newLoad.js"></script>
+      
+        <script src="../template_assets/js/setInfo.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": false, "openEffect": "fade", "closeEffect": "fade", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>

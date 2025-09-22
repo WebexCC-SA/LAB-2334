@@ -1,0 +1,2218 @@
+<!DOCTYPE html><html lang="en" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Driving digital to human engagement">
+      
+      
+        <meta name="author" content="Preetham Kademada, Rue Green">
+      
+      
+      
+        <link rel="prev" href="../Lab1/">
+      
+      
+        <link rel="next" href="../Lab3/">
+      
+      
+      <link rel="icon" href="../template_assets/webex75.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.20">
+    
+    
+      
+        <title>Lab 2 - AI Agents - LAB-2334: Driving digital to human engagement</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.e53b48f4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#lab-2-ai-agents" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="LAB-2334: Driving digital to human engagement" class="md-header__button md-logo" aria-label="LAB-2334: Driving digital to human engagement" data-md-component="logo">
+      
+  <img src="../template_assets/webexLogo91.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            LAB-2334: Driving digital to human engagement
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Lab 2 - AI Agents
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo" aria-label="Switch to dark mode" type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="indigo" aria-label="Switch to light mode" type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../GettingStarted/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Labs
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="LAB-2334: Driving digital to human engagement" class="md-nav__button md-logo" aria-label="LAB-2334: Driving digital to human engagement" data-md-component="logo">
+      
+  <img src="../template_assets/webexLogo91.png" alt="logo">
+
+    </a>
+    LAB-2334: Driving digital to human engagement
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Labs
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Labs
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../GettingStarted/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lab 1 - Proactive Journeys
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Lab 2 - AI Agents
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lab 2 - AI Agents
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#about-this-lab" class="md-nav__link">
+    <span class="md-ellipsis">
+      About this lab
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lab-objective" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lab Objective
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#background" class="md-nav__link">
+    <span class="md-ellipsis">
+      Background
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prompt-engineering-a-vast-and-evolving-discipline" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prompt Engineering: A Vast and Evolving Discipline
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#goal-1-create-an-ai-agent-in-the-ai-agent-studio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Goal 1 – Create an AI Agent in the AI Agent Studio
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Goal 1 – Create an AI Agent in the AI Agent Studio">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configure-ai-agents-instructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configure AI Agents Instructions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#goal-2-add-knowledge-base-and-training-the-agent" class="md-nav__link">
+    <span class="md-ellipsis">
+      Goal 2 – Add Knowledge base and training the agent
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#goal-3-build-agent-actions-and-supporting-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      Goal 3 – Build Agent Actions and Supporting Workflow
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Goal 3 – Build Agent Actions and Supporting Workflow">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-create-the-flow-in-webex-connect" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 1: Create the flow in Webex Connect
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-create-the-action-in-ai-agent-studio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 2: Create the Action in AI Agent Studio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-configure-the-input-entities" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 3: Configure the Input Entities
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-tie-the-action-to-the-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 4: Tie the Action to the Flow
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#goal-4-build-all-the-actions-in-ai-agent-studio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Goal 4: - Build all the Actions in AI Agent Studio.
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Goal 4: - Build all the Actions in AI Agent Studio.">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#change-delivery-date-action" class="md-nav__link">
+    <span class="md-ellipsis">
+      Change Delivery Date Action
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#change-safezone-action" class="md-nav__link">
+    <span class="md-ellipsis">
+      Change Safezone Action
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cancel-order-action" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cancel Order Action
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#goal-5-integrate-the-ai-agent-into-the-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      Goal 5: - Integrate the AI Agent into the flow.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#goal-6-testing-the-ai-agent" class="md-nav__link">
+    <span class="md-ellipsis">
+      Goal 6 – Testing the AI Agent
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comparison-of-structured-flow-vs-ai-agent" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comparison of Structured flow vs AI Agent
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lab 3 - Human Agent
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kb/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Knowledge Base
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="lab-2-ai-agents">LAB 2: - AI Agents</h1>
+<h2 id="about-this-lab">About this lab</h2>
+<p>Cisco’s AI-powered Customer Experience (CX) strategy is designed to
+transform the way businesses engage with customers by making
+interactions more proactive, more self-service driven, and more
+empathetic. AI is embedded across our CX portfolio to augment both
+digital and human interactions, ensuring a seamless, efficient, and
+personalized experience.</p>
+<p>AI Agents serve as the autonomous AI front door to your business,
+providing instant, accurate, and scalable support for routine inquiries.
+By streamlining processes and reducing manual effort, AI Agents free up
+human agents to focus on more complex, high-value interactions.</p>
+<h2 id="lab-objective">Lab Objective</h2>
+<p>This lab introduces you to the following concepts: -</p>
+<ol>
+<li>
+<p>Create an AI Agent in the new AI Agent Studio UI.</p>
+</li>
+<li>
+<p>Train the Agent on a predefined product spec document as well as the
+    store's Return Policy.</p>
+</li>
+<li>
+<p>Build Agent actions and supporting workflows in Webex Connect to
+    handle the following:</p>
+<ul>
+<li>
+<p>Check order delivery status</p>
+</li>
+<li>
+<p>Change the delivery date</p>
+</li>
+<li>
+<p>Add/Edit a "Safe Area" for delivery</p>
+</li>
+<li>
+<p>Cancel an order, with escalation prompts from the AI Agent</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Integrate the AI Agent into the final flow from Lab 1 by updating
+    the "<em>Manage My Order</em>" branch.</p>
+</li>
+<li>
+<p>Use JDS (Journey Data Service) within the Agent action flows to
+    capture context and pass it on to the Agent Desktop.</p>
+</li>
+</ol>
+<h2 id="background">Background</h2>
+<p>Lab 2 focuses entirely on setting up the AI Agent within the new AI
+Agent Studio, combining the ability to answer knowledge-based questions
+with the capability to perform actions using Connect Flows as
+fulfillment mechanisms.</p>
+<p>We will start by exploring the new AI Agent Studio, which brings
+together action-based and knowledge-based agents into a single
+<strong>Autonomous Agent</strong>. From there, we will configure the fulfillment
+flows required to replicate the actions covered in Lab 1. Finally, we’ll
+integrate the AI Agent into the broader flow, demonstrating how it
+enhances user experience and streamlines workflow automation.</p>
+<p>To speed up training, we have provided prebuilt Knowledge Bases and
+supporting materials, which you can find at <a href="https://webexcc-sa.github.io/LAB-2334/kb/">https://webexcc-sa.github.io/LAB-2334/kb/</a></p>
+<p>These are the Knowledge Bases contained therein that we’ll use for this
+lab</p>
+<ul>
+<li>
+<p>Product Information</p>
+</li>
+<li>
+<p>Order and Returns</p>
+</li>
+</ul>
+<h2 id="prompt-engineering-a-vast-and-evolving-discipline">Prompt Engineering: A Vast and Evolving Discipline</h2>
+<p>In this lab, we will cover the basics of <strong>prompt engineering</strong>, the
+practice of designing and refining inputs to effectively guide AI models
+toward generating desired outputs. As it applies to our specific use
+case, prompt engineering involves structuring prompts strategically to
+improve accuracy, relevance, and consistency in AI responses. While this
+will provide a foundation, it’s important to note that prompt
+engineering is a vast and evolving field with many techniques,
+strategies, and best practices that extend beyond what we’ll explore
+here.</p>
+<p>Our goal is to introduce core concepts and demonstrate practical
+applications within the scope of this guide, but this is by no means an
+exhaustive representation of what’s possible. We encourage you to
+experiment with different approaches, refine your prompts, and explore
+additional resources to deepen your understanding. AI models respond
+dynamically to language, and even small adjustments can yield
+significantly different results. By continuously iterating and testing,
+you can uncover new ways to optimize performance and tailor responses to
+your needs.</p>
+<p>Think of this lab as a starting point—there’s a lot more to discover!</p>
+<h2 id="goal-1-create-an-ai-agent-in-the-ai-agent-studio">Goal 1 – Create an AI Agent in the AI Agent Studio</h2>
+<ol>
+<li>
+<p>Open web browser and navigate to <a href="https://admin.webex.com">https://admin.webex.com</a> and login
+    with the admin credentials assigned to your pod. Under Quick
+    Links Webex AI Agent or under🡪Customer Experience AI Agents.</p>
+<p><strong>Note:</strong> There will be an error message on the bottom right which can be
+    ignored. It is an error message to let us know that the user was not
+    added to few groups and can be ignored.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image1.png" data-title="A screenshot of a computer Description automatically generated" data-desc-position="top"><img src="../assets/L2newImages/media/image1.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer Description automatically generated"></a></p>
+</li>
+<li>
+<p>The AI Agent dashboard is launched.</p>
+</li>
+<li>
+<p>Click Create agent button in the top right corner.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image2.png" data-title="A drawing of a cat and a bowl AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image2.png" style="width:100%; max-width:800px; height:auto;" alt="A drawing of a cat and a bowl AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Click Start from scratch.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image3.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image3.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Click Next button.</p>
+</li>
+<li>
+<p>Click Autonomous and configuration screen will appear.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image4.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image4.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Fill in the <strong>Agent name</strong> and <strong>Agent’s goal</strong>. The <strong>System ID</strong>
+   is auto generated and under <strong>AI engine</strong> there are two options</p>
+<ol>
+<li>Webex AI Pro 1.0 - This engine supports multiple languages including English.</li>
+<li>Webex AI Pro-US 1.0 - This engine supports only English language.
+   <strong>This is where additional engines can be selected as and when they become available</strong>.</li>
+</ol>
+<p>Agent name: In the below example, the pod# is 60, so the name is
+prefixed with Pod60. All the pods AI Agents will be accessible and
+hence it is strongly recommended to Prefix the AI Agent name with
+your Pod#.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image5.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image5.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p>Feel free to experiment with different wording for the <strong>Agent’s
+goal</strong>. You can click on the tooltip link for guidance from the AI
+product team (this is also where you’ll find the AI Agent product
+documentation). While we will provide the exact prompts used in our
+setup, these are not the only valid approaches. There is no single
+"correct" way to structure a prompt - variations can lead to different
+outcomes. We encourage you to explore and refine your prompts to see
+what works best for your use case.</p>
+<p><strong>Agent’s goal prompt example:</strong></p>
+<div class="highlight"><pre><span></span><code>You are a friendly and efficient AI Agent. You are focused on
+answering product questions, providing answers to general FAQs and
+managing orders for the Cisco Store.
+</code></pre></div>
+<p>We will refine and iterate on the original prompts to demonstrate how
+adjusting the wording can correct undesired behavior.</p>
+</li>
+<li>
+<p>Click on <strong>Create</strong> in the bottom right corner.</p>
+</li>
+<li>
+<p>The AI Agent profile tab is presented.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image6.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image6.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+</ol>
+<h3 id="configure-ai-agents-instructions">Configure AI Agents Instructions</h3>
+<p>The <strong>Agent Goals</strong> section defines the <strong>overall purpose and role</strong> of
+the AI Agent—what it is designed to achieve and how it should assist
+users.</p>
+<p>The <strong>Instructions</strong> section provides <strong>detailed, step-by-step
+guidance</strong> on how the agent should execute its tasks, including specific
+actions, response formatting, and behavior rules to ensure accurate and
+efficient interactions.</p>
+<p>You can click <strong>Insert Example</strong> to view a basic, generic template or
+refer to the tooltip link for additional guidance. When working with
+LLM-powered agents, providing clear and actionable instructions is
+essential to ensure they perform tasks accurately and efficiently.</p>
+<p>To achieve this, it’s important to first identify the specific actions
+the agent needs to perform so they can be explicitly referenced in this
+section. Based on our goal list, we will define actions for the
+following capabilities:</p>
+<ul>
+<li>
+<p>Check order delivery status – Action: [fetch_status]</p>
+</li>
+<li>
+<p>Change the delivery date – Action: [change_date]</p>
+</li>
+<li>
+<p>Add/Edit a "Safe Area" for delivery – Action: [safe_area]</p>
+</li>
+<li>
+<p>Cancel an order, with escalation prompts from the AI Agent – Action:
+  [cancel_order]</p>
+</li>
+</ul>
+<p>Our approach will be to provide instructions in a step-by-step format,
+clearly outlining each action we want the AI Agent to perform. To make
+these actions explicit, we will enclose them in square brackets, like
+this: <strong>[fetch_status]</strong>.</p>
+<p><strong>Instructions prompt example:</strong>
+</p><div class="highlight"><pre><span></span><code>Answer any questions from the user in a friendly and professional
+manner, referring to the relevant Knowledge sources as appropriate.
+You will also be able to manage any existing orders as follows:  
+Collect an Order ID Number ("orderId") to be able to determine what
+order is being referenced.
+
+**Make a Mental Note**The order ID is in the phone number format.
+Please ignore the special characters in "orderId" and just store the numbers**
+
+These are your available actions, once the "orderId" is known:
+
+ 1. [fetch_status] - use the "orderId" to fetch the status of the
+      order.  
+ 2. [change_date] - change the desired delivery date.  
+ 3. [safe_area] - add or update the specified safe area for the
+     courier to leave the package.  
+ 4. [cancel_order] - cancels the current order by changing the value
+     of "deliveryStatus" to "Cancelled". This action depends on the value
+     of "deliveryStatus" not being equal to "Shipped".
+
+ - If an order cannot be canceled because it has already shipped, the
+    only way the user can proceed is by contacting a human expert on the
+    number \&lt; **WEBEX CONTACT CENTER FLOW ENTRY POINT NUMBER**\&gt;. This is
+    facilitated in the \[cancel_order\] action.
+
+ - If the user requests for order status update, provide the order
+   status which includes "deliveryStatus" and "deliveryETA". If the
+   "deliveryStatus" is not equal to "Shipped", inform the user with the
+   response that the order is being processed and they will be informed
+   with a delivery date after it is processed. When you respond to this
+   message always greet the user in a polite way and include the
+   "firstName" in the greeting along with the "orderId".
+</code></pre></div>
+<strong>Note 1</strong>: The Webex Contact Center Flow Entry Point Number is the
+Telephone Number that was assigned to you along with the Pod assignment.<p></p>
+<p>Instructions serve as a guide for the full range of the AI Agent’s
+capabilities and also provide a space to refine responses retrieved from
+the Knowledge Base.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image7.png" data-desc-position="top"><img src="../assets/L2newImages/media/image7.png" style="width:100%; max-width:800px; height:auto;"></a></p>
+<p>Click the <strong>Save changes</strong> button. This will save the agent and put it
+into a state that’s ready to be previewed. That completes the initial
+prompt setup.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image8.png" data-title="A screenshot of a chat AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image8.png" style="width:2.5in;height:1.25933in" alt="A screenshot of a chat AI-generated content may be incorrect."></a></p>
+<h2 id="goal-2-add-knowledge-base-and-training-the-agent">Goal 2 – Add Knowledge base and training the agent</h2>
+<p>We will now add knowledge base articles to train the AI Agent.</p>
+<ol>
+<li>
+<p>Click on the knowledge icon in the left side menu, and then click on
+    the “Create Knowledge base” button in the top right of the screen.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image9.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image9.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Give the Knowledge base a name that starts with your Pod#(number).
+    Ex: - Pod60 Knowledge base and click Create.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image10.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image10.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>You will then see the knowledge base management dashboard where you
+    can add knowledge in one of 2 ways:</p>
+</li>
+<li>
+<p>File Upload</p>
+</li>
+<li>
+<p>Documents – This is the method we will use for this lab</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image11.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image11.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p><strong>Additional means of adding knowledge sources will become available
+post General Availability, including URLs as sources of information</strong>.</p>
+</li>
+<li>
+<p>Open a new tab in your browser and go to <a href="https://webexcc-sa.github.io/LAB-2334/kb/">https://webexcc-sa.github.io/LAB-2334/kb/</a>
+    and copy the Product Information section till you reach Cisco Store.
+    We will copy Cisco store in the next few steps, so keep this browser
+    tab open.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image12.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image12.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image13.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image13.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Now tab back to the knowledge base section and click on “Documents”.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image14.png" data-title="A screen shot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image14.png" style="width:100%; max-width:800px; height:auto;" alt="A screen shot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Click on “+Create Document” and in the pop for Document name add the
+    following details:</p>
+<ul>
+<li>
+<p>Document name – Product Information</p>
+</li>
+<li>
+<p>Click on “Add to new category” and New Category name – Product.</p>
+</li>
+<li>
+<p>Click "Save".</p>
+</li>
+</ul>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image15.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image15.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image16.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image16.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>In the Enter Document content section, click on the "Enter document content"
+   to paste the information copied in step #4 and click save on the top right.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image17.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image17.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image18.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image18.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Refer to step #4 or open <a href="https://webexcc-sa.github.io/LAB-2334/kb">KB Link</a> to copy the
+    rest of the information for Cisco Store: orders and returns.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image19.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image19.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Now tab back to the knowledge base creation and click on Create
+    Document.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image20.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image20.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>For the document name – Cisco Store Orders and Returns and Add to
+    existing category of Product and click Save.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image21.png" data-title="A screenshot of a computer screen AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image21.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer screen AI-generated content may be incorrect."></a></p>
+<p>In the Enter Document content section, click on the "Enter document content" 
+to paste the information copied in step #10 and click save on the top right.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image22.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image22.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p>These files may take some time to save and in the mean time we will
+continue to next tasks.</p>
+</li>
+<li>
+<p>Head back to the Dashboard and click on the previously created AI
+    Agent.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image23.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image23.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Click on the Knowledge tab</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image24.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image24.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Select the Knowledge Base that belongs to your pod from the dropdown
+    list. Note: - Please select your own pod knowledge base since it
+    will display the knowledge base for all Pods.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image25.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image25.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image26.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image26.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Click on Save Changes to make the changes “live”.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image27.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image27.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p>Note: - You only need to <strong>Save</strong> your changes to preview them in
+the Studio. <strong>Publishing</strong> is only required when you want to push
+updates into production for use within digital or voice flows.</p>
+</li>
+<li>
+<p>Go ahead and preview your agent by clicking on Preview. Select either "Start a chat"
+    or Start a call" to preview the AI Agent.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image28.png" data-title="A screenshot of a phone AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image28.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a phone AI-generated content may be incorrect."></a></p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image29.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image29.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Type in any question and observe how the AI agent responds. Feel
+    free to reference the product document you uploaded to find some
+    sample questions. Try questions related to both the product details
+    and returns process to verify that the agent can maintain context
+    across both documents.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image30.png" data-title="A screenshot of a phone AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image30.png" style="width:2.72675in;height:4.76313in" alt="A screenshot of a phone AI-generated content may be incorrect."></a><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image31.png" data-title="A screenshot of a phone AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image31.png" style="width:2.52in;height:4.76319in" alt="A screenshot of a phone AI-generated content may be incorrect."></a></p>
+</li>
+</ol>
+<h2 id="goal-3-build-agent-actions-and-supporting-workflow">Goal 3 – Build Agent Actions and Supporting Workflow</h2>
+<p>Now that we have an AI Agent capable of answering questions from the
+<strong>Knowledge Base</strong>, we need to enable it to perform the specified
+actions.</p>
+<p>We’ll show you how easily the Agent can be enhanced using flows in Webex
+Connect. This approach allows us to achieve the same outcomes as in
+<strong>Lab 1</strong>, but with the added efficiency, user-friendliness, and ease of
+setup that an LLM-powered agent provides.</p>
+<p>Let’s begin by navigating back to <strong>Webex Connect</strong> and opening the
+service where you created your flows previously.</p>
+<h3 id="step-1-create-the-flow-in-webex-connect">Step 1: Create the flow in Webex Connect</h3>
+<ol>
+<li>
+<p>Login to control hub at <a href="https://admin.webex.com">https://admin.webex.com</a> and launch Webex
+    connect quick link.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image32.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image32.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Find the service that belongs to your Pod and click on it to get
+    started.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image33.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image33.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Go to flows and click on Create Flow.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image34.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image34.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>We have provided a starter flow that gets executed based on the
+   action called within the AI Agent. In this step we will create a
+   flow that is a copy of this starter flow provided. Give the new flow
+   a name prefixed with your Pod#, for ex:- Pod60 All Actions flow. For
+   the method, choose “copy from existing flow”. Click on select flow
+   and select “All_Action_Starter_Flow” and then click “Create”.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image35.png" data-title="A screenshot of a chat AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image35.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a chat AI-generated content may be incorrect."></a></p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image36.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image36.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>In the Configure AI Agent Event window, click save.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image37.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image37.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Open the “Evaluate” node within the flow to modify.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image38.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image38.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Modify the text to replace &lt;<strong>WXCC TELEPHONE NUMBER&gt;</strong> with the
+    Telephone number that was assigned to the pod. Ex: - if the
+    telephone number assigned was 14082221111, the below text will look
+    like</p>
+<div class="highlight"><pre><span></span><code>var Outcome = "Order already shipped. The only way the user can
+proceed is by contacting an expert on the number +1408221111";
+("end")
+</code></pre></div>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image39.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image39.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image40.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image40.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Click save to save the Evaluate node config.</p>
+</li>
+<li>
+<p>Click Make Live to put the flow in production.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image41.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image41.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>In the next window, click “make Live” again to make the flow live.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image42.png" data-title="A screen shot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image42.png" style="width:100%; max-width:800px; height:auto;" alt="A screen shot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+</ol>
+<h3 id="step-2-create-the-action-in-ai-agent-studio"><strong>Step 2</strong>: Create the Action in AI Agent Studio</h3>
+<p>We will now link the AI Agent instruction of [fetch_status] to the
+action/task flow that we just built.</p>
+<ol>
+<li>
+<p>Back in the AI Agent menu within the AI Agent studio, click on the
+    Actions tab to open the list of available actions.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image43.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image43.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p>By default, there is a pre-created action called Agent Handover. If
+you do not want the agent to escalate interactions to a human agent,
+you can toggle this off.</p>
+<p>The rules for escalation are entirely determined by your prompting.
+For example, an instruction like: <em>"When a user asks to speak to an
+agent, transfer them to a human agent."</em> is enough to trigger the
+endpoint in the associated Webex Connect or Webex Contact Center
+flows.</p>
+<p>For now, we’ll focus on configuring actions and will also introduce
+an alternative handover mechanism.</p>
+</li>
+<li>
+<p>In the Action tab click on New Action to get started.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image44.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image44.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>The first action is called “fetch_status”. Enter the action name
+    exactly as fetch_status, without square brackets. The action name
+    should match the AI Agent instructions provided in Configure AI
+    Agents Instructions.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image45.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image45.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p>Enter the following as the <strong>Action description</strong>:</p>
+<div class="highlight"><pre><span></span><code>Using the "orderId", fetch the current status of the user's order.
+</code></pre></div>
+</li>
+<li>
+<p>Under “Action scope”, select “Slot filling with fulfillment” to
+  indicate that a flow will be used to facilitate the action. This
+  ensures the AI Agent retrieves the necessary information before
+  executing the request.</p>
+</li>
+<li>
+<p>That will open the “Input entities” list, click on “+New input
+  entity”.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image46.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image46.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+</ol>
+<h3 id="step-3-configure-the-input-entities"><strong>Step 3</strong>: Configure the Input Entities</h3>
+<p>We will now define the entities. Input Entities are the values that the
+AI Agent will send to the Webex Connect flow, forming the body of the
+JSON payload you defined in the first node of the flow setup.</p>
+<p>For reference, below is the image of the input that we setup in the
+action flow.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image47.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image47.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p>These entities represent the variables the agent needs to collect from
+the user. Therefore, Entity Names are important—they should match the
+variable names used in your JSON payload to ensure proper data
+transmission.</p>
+<ol>
+<li>
+<p>Set the Entity Name to “orderId”</p>
+</li>
+<li>
+<p>For orderId, since we are not setting any constraints, set the
+    Entity Type to String.</p>
+<p>Here is the Entity Description we used:</p>
+<div class="highlight"><pre><span></span><code>The "orderId" is used to fetch the user's order status from the
+connected Order Management Platform.
+</code></pre></div>
+</li>
+<li>
+<p>Since <strong>orderId</strong> is needed for retrieving the customer record, it
+    must be marked as a required value.<br>
+    While <strong>Entity Examples</strong> are optional, they can be helpful in
+    guiding the AI Agent by providing sample inputs that illustrate what
+    user responses might look like. This can improve the agent’s ability
+    to recognize and extract the correct values from user interactions.
+    Ex:- In the image shown below, the example used is 14082221111, and is a
+    fake phone number. The example can be fake data, as it is used to illustrate
+    the format of the phone number to the AI Agent.</p>
+</li>
+<li>
+<p>Click <strong>Add</strong> once you’re done and you’ll see the Entity appear in
+    the list as follows:</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image48.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image48.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image49.png" data-title="A close up of a white envelope AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image49.png" style="width:100%; max-width:800px; height:auto;" alt="A close up of a white envelope AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>We will now add a second entity to pass the action name. The actionName is used 
+   in all action flow to branch to different actions that needs to be executed.
+   Click on +New input entity to add a new entity.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image50.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image50.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Set the Entity Name to “actionName” (Note:- pay attention to case
+    sensitiveness).</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image51.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image51.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Set the Entity Type to String.</p>
+<p>Set the Entity Description as below:
+</p><div class="highlight"><pre><span></span><code>The value is set to "fetch_status" when this action is called.
+</code></pre></div><p></p>
+</li>
+<li>
+<p>Select “Yes” to mark this entity as required value. Provide entity
+    example as “fetch_status” and click Add.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image52.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image52.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+</ol>
+<h3 id="step-4-tie-the-action-to-the-flow"><strong>Step 4</strong>: Tie the Action to the Flow</h3>
+<ol>
+<li>
+<p>We will now link the “Action” of AI Agent to the flow. Scroll down
+    to the “Webex Connect Flow Builder Fulfillment” section.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image53.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image53.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<ul>
+<li>
+<p>For “Select service” – select your service. The service is named Pod
+#(your pod number).</p>
+</li>
+<li>
+<p>For “Select a flow” – select the flow for Pod# All Actions Flow.</p>
+</li>
+<li>
+<p>Click Add at the bottom to complete.</p>
+</li>
+<li>
+<p>The action we just added should show up in the list now.</p>
+</li>
+</ul>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image54.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image54.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Click Save/Publish</p>
+</li>
+<li>
+<p>You’ll then see a pop-up where you will be prompted to enter a comment that represents
+   the changes made to the AI Agent configuration.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image55.png" data-title="A screenshot of a computer Description automatically generated" data-desc-position="top"><img src="../assets/L2newImages/media/image55.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer Description automatically generated"></a></p>
+</li>
+<li>
+<p>Once published, preview the AI Agent to test the action and ensure
+    it is working as expected.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image56.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image56.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>We can now preview and test the AI Agent with actions. When prompted for 
+   "orderId", provide the orderId that was created in Lab 1 and should be your
+   phone number as instructed in Lab 1.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image57.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image57.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<ul>
+<li>
+<p>Try asking for the <strong>order status</strong> in different ways to see how the
+AI Agent responds. This will help you assess how well it understands
+various phrasings and user intents.
+ Ex:- "Is my order shipped?", "When will my order be delivered?".</p>
+</li>
+<li>
+<p>If needed, you can adjust the action descriptions to fine-tune the
+agent's behavior. Experimenting with different prompts and tweaks will
+help optimize the agent's performance.</p>
+</li>
+<li>
+<p>Since the agent still has access to the <strong>Knowledge Base</strong>, feel free
+to mix Q&amp;A-style questions with action-based requests to test the
+complete user experience.</p>
+</li>
+</ul>
+</li>
+</ol>
+<p><strong>Congratulations!</strong> 🎉</p>
+<p>You have successfully created an <strong>AI Agent</strong> capable of both answering
+questions from a client data source and executing actions via API calls
+through Webex Connect.</p>
+<p>To build a fully functional agent, you will need to repeat the process
+for each additional action by following these steps:</p>
+<ul>
+<li>
+<p>Create the Action in AI Agent Studio</p>
+</li>
+<li>
+<p>Configure the Input Entities</p>
+</li>
+<li>
+<p>Preview and Test</p>
+</li>
+</ul>
+<p>We won’t be covering the setup of the remaining actions in the same
+level of detail. Instead, we’ll provide a high-level overview of the
+completed state for each step of every action.</p>
+<h2 id="goal-4-build-all-the-actions-in-ai-agent-studio">Goal 4: - Build all the Actions in AI Agent Studio.</h2>
+<p>We will now build all the actions and link the flow that we built in the
+earlier section.</p>
+<h4 id="change-delivery-date-action">Change Delivery Date Action</h4>
+<ol>
+<li>
+<p>To continue with the configuration, we need to get back to the Agent Studio. 
+    In case you don't have the AI Agent Studio tab already opened, here is another way 
+    to launch it.
+    While you are in the WxConnect, go to App
+    tray which is represented as
+    <a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image58.png" data-title="A white squares on a black background AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image58.png" style="width:0.39526in;height:0.29167in" alt="A white squares on a black background AI-generated content may be incorrect."></a>
+    in the tool bar and click AI Agent Studio to launch the studio.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image59.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image59.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Click on the AI Agent that belongs to your Pod which was created in
+    the section Goal 1 – Create an AI Agent in the AI Agent Studio</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image60.png" data-title="A screenshot of a search AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image60.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a search AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>In AI Agent configuration, click on “Actions” to configure a new
+    Action.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image61.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image61.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>When you are in AI Agent configuration, click “+ New action”.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image62.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image62.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Configure the new action with the following details:</p>
+<ul>
+<li>
+<p>Action name – change_date</p>
+</li>
+<li>
+<p>Action description
+    </p><div class="highlight"><pre><span></span><code>Collect the orderId (if not already known) and ask the user for
+their new preferred delivery date. The delivery date will be used to
+overwrite the "deliveryETA" value in this action. Note that the user
+can change the delivery date, even if the order has already been
+shipped
+</code></pre></div><p></p>
+</li>
+<li>
+<p>Action scope – slot filling and fulfillment</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image63.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image63.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Let us now add a new Entity to collect the new_deliveryETA. When the
+    user requests to change the delivery date, the AI Agent asks the
+    user to provide a new delivery date which will be stored in this
+    Entity. Click “+ New input entity” under Slot filling.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image64.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image64.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Enter the following details for the new input entity</p>
+<ul>
+<li>
+<p>Entity name: new_deliveryETA</p>
+</li>
+<li>
+<p>Entity type: String</p>
+</li>
+<li>
+<p>Description:
+</p><div class="highlight"><pre><span></span><code>  The new preferred delivery date. This will replace the
+ "deliveryETA" value.
+</code></pre></div><p></p>
+</li>
+<li>
+<p>Entity examples: you can add some examples if you prefer which allows
+the AI Agent to train on the format. Ex:- April 4th, April
+4th, 2025 etc</p>
+</li>
+<li>
+<p>Required: Yes</p>
+</li>
+<li>
+<p>Click Add</p>
+</li>
+</ul>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image65.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image65.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Let us add the orderId entity in case the order ID needs to be
+    collected. Click “+ New input entity”.</p>
+<ul>
+<li>
+<p>Entity name: orderId</p>
+</li>
+<li>
+<p>Entity type: String</p>
+</li>
+<li>
+<p>Description:
+</p><div class="highlight"><pre><span></span><code>The orderId of the order to be updated.
+</code></pre></div><p></p>
+</li>
+<li>
+<p>Required: Yes</p>
+</li>
+<li>
+<p>Click Add</p>
+</li>
+</ul>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image66.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image66.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Let us add the actionName entity to set the action name to execute
+    in the flow when this action is invoked. Click “+ New input entity”.</p>
+<ul>
+<li>
+<p>Entity name: actionName</p>
+</li>
+<li>
+<p>Entity type: String</p>
+</li>
+<li>
+<p>Description:
+</p><div class="highlight"><pre><span></span><code>The value is set to “update_date” when this action is called.
+</code></pre></div><p></p>
+</li>
+<li>
+<p>Entity examples: update_date</p>
+</li>
+<li>
+<p>Required: Yes</p>
+</li>
+<li>
+<p>Click Add</p>
+</li>
+</ul>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image67.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image67.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Now we will link the flow to this action under the section Webex
+    Connect Flow Builder Fulfillment.</p>
+<ul>
+<li>
+<p>Select service: The service that belongs to your Pod. Ex: - if the pod
+  assigned to you is 60, then the service is Pod60.</p>
+</li>
+<li>
+<p>Select a flow: Select the Pod# All Actions Flow that was created Step
+  1: Create the flow in Webex Connect section.</p>
+</li>
+</ul>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image68.png" data-title="A screenshot of a web page AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image68.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a web page AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Click Add to add the new action.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image69.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image69.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>We can test this action by clicking “Preview”.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image70.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image70.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>It’s in testing that we <strong>may</strong> see an interesting response from the
+    Agent:</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image71.png" data-title="A screenshot of a chat AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image71.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a chat AI-generated content may be incorrect."></a></p>
+<p>Sometimes, the agent may demand a date format from us, which is
+undesirable.</p>
+<p>We want to ensure that our AI Agent is flexible in accepting various
+date formats from users. Since we did not impose a strict format for
+date collection, this is a great opportunity to fine-tune our prompt for
+a more user-friendly and desirable outcome.</p>
+<p>Go back to the Agent Instructions( Go to AI Agent Studio--&gt;AI Agent--&gt;Configuration--&gt;Instructions)
+and add the following to the <strong>[change_date]</strong> action:</p>
+<div class="highlight"><pre><span></span><code>*The user can provide this date in any way, using natural language, and
+you will be able to interpret it correctly. For example, if they say
+"tomorrow", then you will understand that to mean tomorrow's date. You
+will then save this value as mm/dd/yyyy.*
+</code></pre></div>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image72.png" data-title="A close up of a message Description automatically generated" data-desc-position="top"><img src="../assets/L2newImages/media/image72.png" style="width:100%; max-width:800px; height:auto;" alt="A close up of a message Description automatically generated"></a></p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image73.png" data-title="A screenshot of a chat AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image73.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a chat AI-generated content may be incorrect."></a></p>
+<p>This adjustment will result in a <strong>more user-friendly response</strong> and
+improved handling of date inputs.</p>
+<p>To <strong>confirm the update</strong>, do a test again by requesting the <strong>order status</strong>
+to verify the change in delivery date.</p>
+</li>
+</ol>
+<h4 id="change-safezone-action">Change Safezone Action</h4>
+<p>We will now add safe_area action.</p>
+<ol>
+<li>
+<p>In AI Agent configuration, click on “Actions” to configure a new
+    Action.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image61.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image61.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>When you are in AI Agent configuration, click “+ New action”.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image62.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image62.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Configure the new action with the following details:</p>
+<ul>
+<li>
+<p>Action name – safe_area</p>
+</li>
+<li>
+<p>Action description
+    </p><div class="highlight"><pre><span></span><code>Collect the orderId (if not already known) and use it to update the
+"safeLocation" value.
+
+The user can specify or change the location where they'd like the
+courier to leave the package when it's delivered to their home.
+Typical options may include the following:
+
+    1. Front Door  
+    2. Back Door  
+    3. Garage Door  
+    4. Neighbor's House  
+    5. Other (please ask to specify)
+
+Offer the user these options as a numerical list so that they can also
+reply with a number to correlate to their preferred safe location.
+When a number is entered, you'll know this to refer to the desired
+location and you'll update the record appropriately.
+</code></pre></div><p></p>
+<p>Take note of how we’ve <strong>structured the prompt</strong> to have the AI Agent
+<strong>present options as a numbered list</strong>. This approach makes the
+interaction <strong>more user-friendly</strong>, especially for <strong>SMS-based
+exchanges</strong>, where single-digit responses improve the overall user
+experience.</p>
+</li>
+<li>
+<p>Action scope – slot filling and fulfillment</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image74.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image74.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Let us now add a new Entity to collect the new_safeLocation. When
+    the user requests to drop the package at a particular safe area, the
+    AI Agent stores in this Entity. Click “+ New input entity” under
+    Slot filling.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image64.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image64.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Enter the following details for the new input entity</p>
+<ul>
+<li>
+<p>Entity name: new_safeLocation</p>
+</li>
+<li>
+<p>Entity type: String</p>
+</li>
+<li>
+<p>Description:
+</p><div class="highlight"><pre><span></span><code>The new location that the user would like to have the
+package left when delivered to their home. Please offer the numerical
+list as described in the "action description", along with the option
+to specify any safe location they would like.
+</code></pre></div><p></p>
+</li>
+<li>
+<p>Required: Yes</p>
+</li>
+<li>
+<p>Click Add</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image75.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image75.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Let us add the orderId entity in case the order ID needs to be
+    collected. Click “+ New input entity”.</p>
+<ul>
+<li>
+<p>Entity name: orderId</p>
+</li>
+<li>
+<p>Entity type: String</p>
+</li>
+<li>
+<p>Description:
+</p><div class="highlight"><pre><span></span><code> The orderId of the order to be updated.
+</code></pre></div><p></p>
+</li>
+<li>
+<p>Required: Yes</p>
+</li>
+<li>
+<p>Click Add</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image66.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image66.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Let us add the actionName entity to set the action name to execute
+    in the flow when this action is invoked. Click “+ New input entity”.</p>
+<ul>
+<li>
+<p>Entity name: actionName</p>
+</li>
+<li>
+<p>Entity type: String</p>
+</li>
+<li>
+<p>Description:
+</p><div class="highlight"><pre><span></span><code>The value is set to “safe_area” when this action is called.
+</code></pre></div><p></p>
+</li>
+<li>
+<p>Entity examples: safe_area</p>
+</li>
+<li>
+<p>Required: Yes</p>
+</li>
+<li>
+<p>Click Add</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image76.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image76.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Now we will link the flow to this action under the section Webex
+    Connect Flow Builder Fulfillment.</p>
+<ul>
+<li>
+<p>Select service: The service that belongs to your Pod. Ex: - if the pod
+  assigned to you is 60, then the service is Pod60.</p>
+</li>
+<li>
+<p>Select a flow: Select the Pod# All Actions Flow that was created Step1: Create the flow in Webex Connect section.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image68.png" data-title="A screenshot of a web page AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image68.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a web page AI-generated content may be incorrect."></a></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Click Add to add the new action.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image77.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image77.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>We can test this action by clicking “Preview”.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image70.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image70.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+</ol>
+<h4 id="cancel-order-action">Cancel Order Action</h4>
+<p>We will now add cancel_order action.</p>
+<ol>
+<li>
+<p>In AI Agent configuration, click on “Actions” to configure a new
+    Action.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image61.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image61.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>When you are in AI Agent configuration, click “+ New action”.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image62.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image62.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Configure the new action with the following details:</p>
+<ul>
+<li>
+<p>Action name – cancel_order</p>
+</li>
+<li>
+<p>Action description
+    </p><div class="highlight"><pre><span></span><code>Collect the orderId (if not already known) and use it to update the
+"deliveryStatus" value. The action will first perform a check to see
+what the order status is (if not already known) - if the delivery
+status ("deliveryStatus") value is "shipped", then the order can't be
+cancelled and the user needs to be put in touch with a human expert on
+the number &lt;INSERT YOUR OWN WXCC TELEPHONE NUMBER&gt; THAT WAS ASSIGNED
+TO YOU&gt;**. However, for any other status, regardless of what it is,
+the order can be cancelled.
+</code></pre></div>
+    <em>Note</em>:- Modify the above text to replace &lt;<em>INSERT YOUR OWN WXCC TELEPHONE NUMBER</em>&gt;
+    with the telephone number assigned to your pod.<p></p>
+</li>
+<li>
+<p>Action scope – slot filling and fulfillment</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image78.png" data-title="A screenshot of a computer Description automatically generated" data-desc-position="top"><img src="../assets/L2newImages/media/image78.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer Description automatically generated"></a></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Let us now add a new Entity to collect the orderId. When the user
+    requests to drop the package at a particular safe area, the AI Agent
+    stores in this Entity. Click “+ New input entity” under Slot
+    filling.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image64.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image64.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Let us add the orderId entity in case the order ID needs to be
+    collected. Click “+ New input entity”.</p>
+<ul>
+<li>
+<p>Entity name: orderId</p>
+</li>
+<li>
+<p>Entity type: String</p>
+</li>
+<li>
+<p>Description:
+</p><div class="highlight"><pre><span></span><code>The orderId of the order to be cancelled.
+</code></pre></div><p></p>
+</li>
+<li>
+<p>Required: Yes</p>
+</li>
+<li>
+<p>Click Add</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image79.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image79.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Let us add the actionName entity to set the action name to execute
+    in the flow when this action is invoked. Click “+ New input entity”.</p>
+<ul>
+<li>
+<p>Entity name: actionName</p>
+</li>
+<li>
+<p>Entity type: String</p>
+</li>
+<li>
+<p>Description:
+</p><div class="highlight"><pre><span></span><code>The value is set to “cancel_order” when this action is called.
+</code></pre></div><p></p>
+</li>
+<li>
+<p>Entity examples: cancel_order</p>
+</li>
+<li>
+<p>Required: Yes</p>
+</li>
+<li>
+<p>Click Add</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image80.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image80.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Now we will link the flow to this action under the section Webex
+    Connect Flow Builder Fulfillment.</p>
+<ul>
+<li>
+<p>Select service: The service that belongs to your Pod. Ex: - if the pod
+  assigned to you is 60, then the service is Pod60.</p>
+</li>
+<li>
+<p>Select a flow: Select the Pod# All Actions Flow that was created Step1: Create the flow in Webex Connect section.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image68.png" data-title="A screenshot of a web page AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image68.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a web page AI-generated content may be incorrect."></a></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Click Add to add the new action.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image81.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image81.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>We can test this action by clicking “Preview”.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image70.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image70.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image82.png" data-title="A screenshot of a chat AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image82.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a chat AI-generated content may be incorrect."></a></p>
+<p><strong>In the example shown above in step #9, the delivery status is set to “shipped”. 
+With the delivery status is set to "shipped" the AI Agent will always inform the 
+customer that the order cannot be canceled and will provide the appropriate contact 
+number for further assistance.</strong></p>
+<p>This mechanism also serves as a built-in escalation path to a human
+agent, entirely handled through prompting, without requiring
+additional flow logic.</p>
+<p><strong>Verifying the Action Flow:</strong></p>
+<p>To test the cancellation process for "Not Shipped" status, use Update CRM (process can 
+be found in Lab 1 guide <a href="http://docs.cxocoe.us/Lab1/#goal-1-crm-setup">CRM Setup</a>) to 
+manually set the deliveryStatus variable to "Not shipped”.</p>
+<p>Once updated, the AI Agent will recognize the change and proceed to
+cancel the order, updating the status to CANCELLED accordingly.</p>
+<p>Please click “Publish” to publish the AI Agent. When prompted, include a 
+comment summarizing the updates made to this version of the AI Agent and 
+proceed to deploy it to production</p>
+</li>
+</ol>
+<p>That concludes <strong>Agent Actions</strong> and the <strong>AI Agent Studio</strong> portion of
+this lab. 🚀</p>
+<p>Next, we will focus on <strong>simplifying the final flow from Lab 1</strong> to:</p>
+<ul>
+<li><strong>Integrate the AI Agent</strong> to streamline the building process</li>
+</ul>
+<p>Now, let’s head back over to <strong>Webex Connect</strong> to continue!</p>
+<h2 id="goal-5-integrate-the-ai-agent-into-the-flow">Goal 5: - Integrate the AI Agent into the flow.</h2>
+<p>At the end of this goal, you will realize the importance of AI Agent in
+simplifying the workflows. It allows the brands to move from a
+structured workflow which requires you to capture and program all paths
+of interaction to meet the required customer experience to have an
+unstructured flow with AI Agent. It is also important to understand that
+AI Agent is not to be deployed once and forgotten. It is important to
+review the sessions to understand the conversation failures and enhance
+the instructions to add the required guardrails or modify the language
+to meet the needs.</p>
+<p>We are now going to modify the flow we built in Lab 1 and incorporate Ai
+Agent into this flow. In order to use the time efficiently, there is a
+Lab 2 starter flow provided in your Pod service, and we will use this
+flow to copy a new flow and change few settings before putting into
+production.</p>
+<ol>
+<li>
+<p>Login to control hub at <a href="https://admin.webex.com">https://admin.webex.com</a> and launch Webex
+    connect quick link.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image32.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image32.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Find the service that belongs to your Pod and click on it to get
+    started.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image33.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image33.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Go to flows and click on Create Flow.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image34.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image34.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>In create flow window enter the following details:</p>
+<ul>
+<li>
+<p>Flow Name: Pod# Lab2 AI Agent (substitute # with your Pod number.
+Ex: - in the image below, the Pod# is 60 and hence the flow is named
+Pod60 Lab2 AI Agent).</p>
+</li>
+<li>
+<p>Method: Copy from existing flow.</p>
+</li>
+<li>
+<p>Select Flow: Lab 2 starter flow.</p>
+</li>
+<li>
+<p>Click “Create”.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image83.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image83.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Configure webhook window appears. We are going to create a new
+    webhook for Lab2.</p>
+<ul>
+<li>
+<p>Under Configure webhook settings to trigger this flow</p>
+</li>
+<li>
+<p>Create new event.</p>
+</li>
+<li>
+<p>Name – Pod# Lab2 AI Agent Trigger Ex: - For Pod 60, name is Pod60 AI
+    Agent.</p>
+</li>
+<li>
+<p>Example Data: Use the below JSON payload.
+    </p><div class="highlight"><pre><span></span><code>{
+
+"orderId": ""
+
+}
+</code></pre></div><p></p>
+</li>
+<li>
+<p>Click Parse to parse orderId as a variable.</p>
+</li>
+<li>
+<p>Click Save.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image84.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image84.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image85.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image85.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+</ul>
+</li>
+<li>
+<p>We now need to modify the SMS nodes to add the sms number. In the
+    below flow, there are three SMS nodes identified. Open the SMS node
+    marked as 1 by clicking on it.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image86.png" data-title="A diagram of a network AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image86.png" style="width:100%; max-width:800px; height:auto;" alt="A diagram of a network AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>The SMS configuration window opens and check the “From Number”, it
+    is blank, and we will select the dynamic variable "yourAssignedSMSNumber" that
+    stores the SMS number.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image87.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image87.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p>Click on the “From Number” and select “yourAssignedSMSNumber”
+variable from the drop down under Custom Variables and click “Save”.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image88.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image88.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Repeat the steps to complete the configuration for SMS nodes #2 and
+    #3.</p>
+</li>
+<li>
+<p>Next, we will verify the Receive node is configured. There is only
+    one Receive node in the flow that is highlighted. Open the receive
+    node and click save even if the node is configured correctly.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image89.png" data-title="A diagram of a network AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image89.png" style="width:100%; max-width:800px; height:auto;" alt="A diagram of a network AI-generated content may be incorrect."></a></p>
+<p>If the Receive node Number is blank, click on the Number field and
+select “yourAssignedSMSNumber” variable from the Custom Variables
+drop down. Select “*” for the keyword and click Save.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image90.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image90.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Next, we are going to modify the AI Agent nodes in the flow. There
+    are two AI Agent nodes in the below flow that needs to be modified.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image91.png" data-title="A diagram of a network AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image91.png" style="width:100%; max-width:800px; height:auto;" alt="A diagram of a network AI-generated content may be incorrect."></a></p>
+<p>Open the AI Agent node #1 to modify. Click the AGENT field and in
+the drop down pick the AI Agent name that we configured in “ Goal 1
+– Create an AI Agent in the AI Agent Studio”. Ex: - The pod assigned
+below is 60, so the AI Agent picked is Pod60 AI Agent.</p>
+<p>Click Save to complete.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image92.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image92.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Repeat the steps for AI Agent node #2, the completed node
+    configuration of AI Agent node #2 is shown below. Click Save.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image93.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image93.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>All the configuration changes for this flow are complete. Click
+    “Make Live” to put the flow into production. The Make Live
+    configuration window appears as shown below.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image94.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image94.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image95.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image95.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Click Make live again to put the flow in Production.</p>
+</li>
+</ol>
+<h2 id="goal-6-testing-the-ai-agent">Goal 6 – Testing the AI Agent</h2>
+<p>It is now time to test the flow that we put in production. The flow that we built is
+triggered by certain notifications from the CRM or system of record
+updates as a proactive notifications. We will simulate this by creating this notification and keep
+your mobile phones ready, let us begin testing.</p>
+<!--Note: - If the delivery status is set to “Not Shipped”, use the “Update
+CRM” to set the delivery status to “Shipped” for this part of the
+testing and do the order cancellation as the last step, as this will be
+the lead into lab3. -->
+
+<ol>
+<li>
+<p>Open a web browser and login to <a href="http://crm.cxocoe.us">http://crm.cxocoe.us</a> with the
+    provided credentials.</p>
+</li>
+<li>
+<p>Click on “Update CRM Data”</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image107.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image107.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p>The field to update is Delivery Status and the value is “Not
+shipped”. Then click “Update Record”.</p>
+</li>
+<li>
+<p>Open the flow that was put into production in Goal 5 step #13 and double click on the
+    first node “Configure Webhook”.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image96.png" data-title="A diagram of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image96.png" style="width:100%; max-width:800px; height:auto;" alt="A diagram of a computer AI-generated content may be incorrect."></a></p>
+<p>In the configuration window, locate the field named “Webhook URL”
+and the url is of the format
+<a href="https://hooks.us.webexconnect.io/events/XXXXXXXXX">https://hooks.us.webexconnect.io/events/XXXXXXXXX</a>. Copy the last
+part of the URL “XXXXXXXXXX” to test.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image97.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image97.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>If you don't have the CRM page open, click open a web browser and login 
+    to <a href="http://crm.cxocoe.us">CRM</a> with the credentials provided.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image98.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image98.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Click on “Kick off Proactive Flow”.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image99.png" data-title="A screenshot of a webpage AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image99.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a webpage AI-generated content may be incorrect."></a></p>
+<ul>
+<li>
+<p>Phone Number: <em>Enter your mobile number with country code. Ex: -
+14081111111</em></p>
+</li>
+<li>
+<p>Webhook Id: <em>Enter the copied text from step #3</em></p>
+</li>
+</ul>
+<p>Then click on “Start Flow” to trigger the proactive journey.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image100.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image100.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>The webex connect flows provide debug capability to identify any issues with the
+    configuration. Login into webex connect and open the flow, the debug can be accessed 
+    by clicking on bug icon that is located on the right of the flow.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image101.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image101.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p>The debug window contains list of transaction id’s that the flow has
+executed. Click on the appropriate transaction id to debug.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image102.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image102.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p>The debug output is encrypted by default. Click “Decrypt Logs” to
+view the logs in plain text.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image103.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image103.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Follow the prompts to test the following.</p>
+<ul>
+<li>change the delivery date.</li>
+<li>Update delivery location.</li>
+</ul>
+<p>Observe the confirmation notifications received for each of these tests.</p>
+</li>
+<li>
+<p>Open a web browser and login to <a href="http://crm.cxocoe.us">http://crm.cxocoe.us</a> with the
+    provided credentials.</p>
+</li>
+<li>
+<p>Click on “Update CRM Data”</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image107.png" data-title="A screenshot of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image107.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a computer AI-generated content may be incorrect."></a></p>
+<p>In the field to update dropdown, select "Delivery Status" and in the new value box, enter "shipped”. Then click “Update Record” button.</p>
+</li>
+<li>
+<p>Let us retest by following step #5</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image99.png" data-title="A screenshot of a webpage AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image99.png" style="width:100%; max-width:800px; height:auto;" alt="A screenshot of a webpage AI-generated content may be incorrect."></a></p>
+<ul>
+<li>
+<p>Phone Number: <em>Enter your mobile number with country code. Ex: -
+14081111111</em></p>
+</li>
+<li>
+<p>Webhook Id: <em>Enter the copied text from step #3</em></p>
+</li>
+</ul>
+<p>Then click on “Start Flow” to trigger the proactive journey.</p>
+</li>
+<li>
+<p>You will receive an order status notification on your mobile device. 
+    Respond to the message in your own words to initiate the order cancellation.</p>
+</li>
+<li>
+<p>You should receive a notification prompting you to contact the <strong>customer
+    support hotline</strong> to proceed with the cancellation. Since we marked your order as
+    "shipped" a few steps ago, the request to cancellation is denied by the AI Agent and
+    the call is transferred to human agent to assist the customer and hopefully prevent
+    the customer from cancelling the order. </p>
+<p>The following screenshots show examples of the notifications you may receive during the
+"change in delivery date" and "order cancellation" tests.
+<a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image104.png" data-title="A screenshot of a phone AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image104.png" style="width:1.67222in;height:3.83636in" alt="A screenshot of a phone AI-generated content may be incorrect."></a><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image105.png" data-title="A screenshot of a phone AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image105.png" style="width:1.67222in;height:3.83636in" alt="A screenshot of a phone AI-generated content may be incorrect."></a><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image106.png" data-title="A screenshot of a phone AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image106.png" style="width:1.67222in;height:3.83636in" alt="A screenshot of a phone AI-generated content may be incorrect."></a></p>
+</li>
+<li>
+<p>Order cancellation with the delivery status set to "shipped" 
+    is the final step before moving on to Lab 3. </p>
+</li>
+</ol>
+<h2 id="comparison-of-structured-flow-vs-ai-agent">Comparison of Structured flow vs AI Agent</h2>
+<p>Let us know compare the flow that was created for Lab 1 vs Lab 2 to
+understand the advantages of AI Agent to handle an unstructured
+conversation and its impact on the brand.</p>
+<p>Here is the flow we built for Lab 1</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image108.png" data-title="A diagram of a network AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image108.png" style="width:6.26806in;height:2.53264in" alt="A diagram of a network AI-generated content may be incorrect."></a></p>
+<p>And now below is the flow we built for lab 2 with AI Agent.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/L2newImages/media/image109.png" data-title="A diagram of a computer AI-generated content may be incorrect." data-desc-position="top"><img src="../assets/L2newImages/media/image109.png" style="width:6.26806in;height:2.3875in" alt="A diagram of a computer AI-generated content may be incorrect."></a></p>
+<p>Even though we are able to provide similar brand experience for our
+customers, AI Agent with its ability to handle unstructured flow can
+prove beneficial for the brands to service the customers more
+efficiently and in a timely manner without having to program all the
+communication paths like in structured conversation.</p>
+<p>This is an example of Cisco Autonomous AI Agent which is based on
+“Generative AI” technology, but if brands prefer to leverage a more
+structured SelfService AI Agent, Cisco is also positioned to provide
+this solution using “Scripted AI Agent”. </p>
+<p>👏👏Congratulations!! This concludes Lab 2.👏👏</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer">
+        
+          
+          <a href="../Lab1/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Lab 1 - Proactive Journeys">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Lab 1 - Proactive Journeys
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../Lab3/" class="md-footer__link md-footer__link--next" aria-label="Next: Lab 3 - Human Agent">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Lab 3 - Human Agent
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"></path></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright © 2025 Cisco
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.indexes", "navigation.instant", "navigation.top", "navigation.footer", "search.suggest", "content.code.copy", "toc.integrate"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+        <script src="../template_assets/js/newLoad.js"></script>
+      
+        <script src="../template_assets/js/setInfo.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": false, "openEffect": "fade", "closeEffect": "fade", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>
